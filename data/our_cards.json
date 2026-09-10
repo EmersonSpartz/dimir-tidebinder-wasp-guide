@@ -1,0 +1,43 @@
+{
+ "Tishana's Tidebinder": {
+  "mc": "{2}{U}",
+  "type": "Creature — Merfolk Wizard",
+  "pt": "3/2",
+  "oracle": "Flash\nWhen this creature enters, counter up to one target activated or triggered ability. If an ability of an artifact, creature, or planeswalker is countered this way, that permanent loses all abilities for as long as this creature remains on the battlefield. (Mana abilities can't be targeted.)",
+  "keywords": [
+   "Flash"
+  ],
+  "set": "The Lost Caverns of Ixalan",
+  "released": "2023-11-17",
+  "rulings": [
+   [
+    "2023-11-10",
+    "If Tishana's Tidebinder leaves the battlefield before its triggered ability resolves, the target activated or triggered ability will still be countered, but the source of the ability won't lose its abilities at all."
+   ],
+   [
+    "2023-11-10",
+    "If the affected permanent gains an ability after Tishana's Tidebinder's effect begins to apply to it, it will keep that ability."
+   ],
+   [
+    "2023-11-10",
+    "Tishana's Tidebinder's triggered ability checks to see if the source of the ability is an artifact, creature, or planeswalker as it resolves. If it isn't, it won't lose all abilities, even if it was an artifact, creature, or planeswalker when the ability was activated or when it triggered."
+   ]
+  ],
+  "art": "https://cards.scryfall.io/art_crop/front/9/0/907b3d1d-8c85-4707-80b5-c4d832df9846.jpg?1783913786"
+ },
+ "The Wondrous Wasp": {
+  "mc": "{1}{U}",
+  "type": "Legendary Creature — Human Hero",
+  "pt": "2/1",
+  "oracle": "Flash\nFlying\nWasp's Sting — When The Wondrous Wasp enters, tap up to one target creature. It loses all abilities for as long as The Wondrous Wasp remains on the battlefield.",
+  "keywords": [
+   "Flying",
+   "Wasp's Sting",
+   "Flash"
+  ],
+  "set": "Marvel Super Heroes",
+  "released": "2026-06-26",
+  "rulings": [],
+  "art": "https://cards.scryfall.io/art_crop/front/4/8/484e80a4-1d5f-4c27-98a8-ee2ef9d6cbdc.jpg?1783902947"
+ }
+}
