@@ -1,0 +1,489 @@
+{
+ "deck": "Azorius Momo",
+ "meta_share_pct": 2.5,
+ "goldfish_deck_id": "7937307",
+ "main": {
+  "Abandoned Air Temple": 2,
+  "Daydream": 4,
+  "Erode": 3,
+  "Plains": 6,
+  "Floodfarm Verge": 4,
+  "Multiversal Passage": 4,
+  "Momo, Friendly Flier": 4,
+  "Hallowed Fountain": 4,
+  "Glen Elendra Guardian": 2,
+  "Flitterwing Nuisance": 1,
+  "Practiced Offense": 4,
+  "Quantum Riddler": 4,
+  "Sage of the Skies": 4,
+  "Springleaf Drum": 4,
+  "Starfield Shepherd": 4,
+  "Starting Town": 1,
+  "Steamcore Scholar": 2,
+  "Stirring Hopesinger": 3
+ },
+ "side": {
+  "Rest in Peace": 4,
+  "Erode": 1,
+  "Morningtide's Light": 2,
+  "Get Lost": 2,
+  "Flashfreeze": 3,
+  "Disdainful Stroke": 2,
+  "Spider-Sense": 1
+ },
+ "cards": {
+  "Abandoned Air Temple": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "This land enters tapped unless you control a basic land.\n{T}: Add {W}.\n{3}{W}, {T}: Put a +1/+1 counter on each creature you control.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{3}{W}, {T}: Put a +1/+1 counter on each creature you control."
+    ],
+    "mana_abilities_untargetable": [
+     "{T}: Add {W}."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Daydream": {
+   "mana_cost": "{W}",
+   "type": "Sorcery",
+   "oracle": "Exile target creature you control, then return that card to the battlefield under its owner's control with a +1/+1 counter on it.\nFlashback {2}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flashback",
+     "Flash"
+    ]
+   }
+  },
+  "Erode": {
+   "mana_cost": "{W}",
+   "type": "Instant",
+   "oracle": "Destroy target creature or planeswalker. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Plains": {
+   "mana_cost": "",
+   "type": "Basic Land — Plains",
+   "oracle": "({T}: Add {W}.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {W}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Floodfarm Verge": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "{T}: Add {W}.\n{T}: Add {U}. Activate only if you control a Plains or an Island.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}: Add {W}.",
+     "{T}: Add {U}. Activate only if you control a Plains or an Island."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Multiversal Passage": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "As this land enters, choose a basic land type. Then you may pay 2 life. If you don't, it enters tapped.\nThis land is the chosen type.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Momo, Friendly Flier": {
+   "mana_cost": "{W}",
+   "type": "Legendary Creature — Lemur Bat Ally",
+   "oracle": "Flying\nThe first non-Lemur creature spell with flying you cast during each of your turns costs {1} less to cast.\nWhenever another creature you control with flying enters, Momo gets +1/+1 until end of turn.",
+   "pt": "1/1",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever another creature you control with flying enters, Momo gets +1/+1 until end of turn"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flying"
+    ]
+   }
+  },
+  "Hallowed Fountain": {
+   "mana_cost": "",
+   "type": "Land — Plains Island",
+   "oracle": "({T}: Add {W} or {U}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {W} or {U}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Glen Elendra Guardian": {
+   "mana_cost": "{2}{U}",
+   "type": "Creature — Faerie Wizard",
+   "oracle": "Flash\nFlying\nThis creature enters with a -1/-1 counter on it.\n{1}{U}, Remove a counter from this creature: Counter target noncreature spell. Its controller draws a card.",
+   "pt": "3/4",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{1}{U}, Remove a counter from this creature: Counter target noncreature spell. Its controller draws a card."
+    ],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flash",
+     "Flying"
+    ]
+   }
+  },
+  "Flitterwing Nuisance": {
+   "mana_cost": "{U}",
+   "type": "Creature — Faerie Rogue",
+   "oracle": "Flying\nThis creature enters with a -1/-1 counter on it.\n{2}{U}, Remove a counter from this creature: Whenever a creature you control deals combat damage to a player or planeswalker this turn, draw a card.",
+   "pt": "2/2",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{2}{U}, Remove a counter from this creature: Whenever a creature you control deals combat damage to a player or planeswalker this turn,"
+    ],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flying"
+    ]
+   }
+  },
+  "Practiced Offense": {
+   "mana_cost": "{2}{W}",
+   "type": "Sorcery",
+   "oracle": "Put a +1/+1 counter on each creature target player controls. Target creature gains your choice of double strike or lifelink until end of turn.\nFlashback {1}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flashback",
+     "Flash",
+     "Lifelink",
+     "Double strike"
+    ]
+   }
+  },
+  "Quantum Riddler": {
+   "mana_cost": "{3}{U}{U}",
+   "type": "Creature — Sphinx",
+   "oracle": "Flying\nWhen this creature enters, draw a card.\nAs long as you have one or fewer cards in hand, if you would draw one or more cards, you draw that many cards plus one instead.\nWarp {1}{U}",
+   "pt": "4/6",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this creature enters, draw a card"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flying"
+    ]
+   }
+  },
+  "Sage of the Skies": {
+   "mana_cost": "{2}{W}",
+   "type": "Creature — Human Monk",
+   "oracle": "When you cast this spell, if you've cast another spell this turn, copy this spell. (The copy becomes a token.)\nFlying, lifelink",
+   "pt": "2/3",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When you cast this spell, if you've cast another spell this turn, copy this spell"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Lifelink",
+     "Flying"
+    ]
+   }
+  },
+  "Springleaf Drum": {
+   "mana_cost": "{1}",
+   "type": "Artifact",
+   "oracle": "{T}, Tap an untapped creature you control: Add one mana of any color.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}, Tap an untapped creature you control: Add one mana of any color."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Starfield Shepherd": {
+   "mana_cost": "{3}{W}{W}",
+   "type": "Creature — Angel",
+   "oracle": "Flying\nWhen this creature enters, search your library for a basic Plains card or a creature card with mana value 1 or less, reveal it, put it into your hand, then shuffle.\nWarp {1}{W} (You may cast this card from your hand for its warp cost. Exile this creature at the beginning of the next end step, then you may cast it from exile on a later turn.)",
+   "pt": "3/2",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this creature enters, search your library for a basic Plains card or a creature card with mana value 1 or less, reveal it, put it into your hand, then shuffle"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flying"
+    ]
+   }
+  },
+  "Starting Town": {
+   "mana_cost": "",
+   "type": "Land — Town",
+   "oracle": "This land enters tapped unless it's your first, second, or third turn of the game.\n{T}: Add {C}.\n{T}, Pay 1 life: Add one mana of any color.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}: Add {C}.",
+     "{T}, Pay 1 life: Add one mana of any color."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Steamcore Scholar": {
+   "mana_cost": "{2}{U}",
+   "type": "Creature — Weird Detective",
+   "oracle": "Flying, vigilance\nWhen this creature enters, draw two cards. Then discard two cards unless you discard an instant or sorcery card or a creature card with flying.",
+   "pt": "2/2",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this creature enters, draw two cards"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flying",
+     "Vigilance"
+    ]
+   }
+  },
+  "Stirring Hopesinger": {
+   "mana_cost": "{2}{W}",
+   "type": "Creature — Bird Bard",
+   "oracle": "Flying, lifelink\nRepartee — Whenever you cast an instant or sorcery spell that targets a creature, put a +1/+1 counter on each creature you control.",
+   "pt": "1/3",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Lifelink",
+     "Flying"
+    ]
+   }
+  },
+  "Rest in Peace": {
+   "mana_cost": "{1}{W}",
+   "type": "Enchantment",
+   "oracle": "When this enchantment enters, exile all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this enchantment enters, exile all graveyards"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Morningtide's Light": {
+   "mana_cost": "{3}{W}",
+   "type": "Sorcery",
+   "oracle": "Exile any number of target creatures. At the beginning of the next end step, return those cards to the battlefield tapped under their owners' control.\nUntil your next turn, prevent all damage that would be dealt to you.\nExile Morningtide's Light.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     ". At the beginning of the next end step, return those cards to the battlefield tapped under their owners' control"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Get Lost": {
+   "mana_cost": "{1}{W}",
+   "type": "Instant",
+   "oracle": "Destroy target creature, enchantment, or planeswalker. Its controller creates two Map tokens. (They're artifacts with \"{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.\")",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Flashfreeze": {
+   "mana_cost": "{1}{U}",
+   "type": "Instant",
+   "oracle": "Counter target red or green spell.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Disdainful Stroke": {
+   "mana_cost": "{1}{U}",
+   "type": "Instant",
+   "oracle": "Counter target spell with mana value 4 or greater.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Spider-Sense": {
+   "mana_cost": "{1}{U}",
+   "type": "Instant",
+   "oracle": "Web-slinging {U} (You may cast this spell for {U} if you also return a tapped creature you control to its owner's hand.)\nCounter target instant spell, sorcery spell, or triggered ability.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  }
+ },
+ "our_cards": {
+  "Tishana's Tidebinder": {
+   "mc": "{2}{U}",
+   "type": "Creature — Merfolk Wizard",
+   "pt": "3/2",
+   "oracle": "Flash\nWhen this creature enters, counter up to one target activated or triggered ability. If an ability of an artifact, creature, or planeswalker is countered this way, that permanent loses all abilities for as long as this creature remains on the battlefield. (Mana abilities can't be targeted.)",
+   "keywords": [
+    "Flash"
+   ],
+   "set": "The Lost Caverns of Ixalan",
+   "released": "2023-11-17",
+   "rulings": [
+    [
+     "2023-11-10",
+     "If Tishana's Tidebinder leaves the battlefield before its triggered ability resolves, the target activated or triggered ability will still be countered, but the source of the ability won't lose its abilities at all."
+    ],
+    [
+     "2023-11-10",
+     "If the affected permanent gains an ability after Tishana's Tidebinder's effect begins to apply to it, it will keep that ability."
+    ],
+    [
+     "2023-11-10",
+     "Tishana's Tidebinder's triggered ability checks to see if the source of the ability is an artifact, creature, or planeswalker as it resolves. If it isn't, it won't lose all abilities, even if it was an artifact, creature, or planeswalker when the ability was activated or when it triggered."
+    ]
+   ],
+   "art": "https://cards.scryfall.io/art_crop/front/9/0/907b3d1d-8c85-4707-80b5-c4d832df9846.jpg?1783913786"
+  },
+  "The Wondrous Wasp": {
+   "mc": "{1}{U}",
+   "type": "Legendary Creature — Human Hero",
+   "pt": "2/1",
+   "oracle": "Flash\nFlying\nWasp's Sting — When The Wondrous Wasp enters, tap up to one target creature. It loses all abilities for as long as The Wondrous Wasp remains on the battlefield.",
+   "keywords": [
+    "Flying",
+    "Wasp's Sting",
+    "Flash"
+   ],
+   "set": "Marvel Super Heroes",
+   "released": "2026-06-26",
+   "rulings": [],
+   "art": "https://cards.scryfall.io/art_crop/front/4/8/484e80a4-1d5f-4c27-98a8-ee2ef9d6cbdc.jpg?1783902947"
+  }
+ },
+ "our_stock_list_sept_2026": {
+  "main": {
+   "Bitter Triumph": 2,
+   "Dream Beavers": 4,
+   "Kaito, Bane of Nightmares": 4,
+   "Floodpits Drowner": 4,
+   "Gloomlake Verge": 4,
+   "Island": 4,
+   "Restless Reef": 2,
+   "Requiting Hex": 4,
+   "Soulstone Sanctuary": 2,
+   "Shoot the Sheriff": 2,
+   "Wan Shi Tong, Librarian": 2,
+   "Spyglass Siren": 4,
+   "Spell Snare": 2,
+   "The Wondrous Wasp": 2,
+   "Tishana's Tidebinder": 1,
+   "Watery Grave": 4,
+   "We Say Thee Nay!": 2,
+   "Swamp": 4,
+   "Enduring Curiosity": 4,
+   "Hidden Lair": 3
+  },
+  "side": {
+   "Duress": 3,
+   "Day of Black Sun": 2,
+   "Annul": 1,
+   "Ghost Vacuum": 1,
+   "Spell Pierce": 2,
+   "Strategic Betrayal": 1,
+   "Vren, the Relentless": 1,
+   "Flashfreeze": 2,
+   "Faebloom Trick": 2
+  },
+  "note": "MTGGoldfish stock Dimir Midrange, Sept 2026. Main runs 1 Tishana's Tidebinder + 2 The Wondrous Wasp; Karsten Sept 3 aggregate and postboard both show 2 Tidebinder in the sideboard."
+ }
+}

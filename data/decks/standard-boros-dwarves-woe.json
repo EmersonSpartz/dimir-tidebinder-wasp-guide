@@ -1,0 +1,546 @@
+{
+ "deck": "Boros Dwarves",
+ "meta_share_pct": 4.1,
+ "goldfish_deck_id": "7939198",
+ "main": {
+  "Cavern of Souls": 2,
+  "Dáin's Company": 4,
+  "Inspiring Vantage": 4,
+  "Dragonfire Blade": 4,
+  "Dwarven Mauler": 4,
+  "Leyline Axe": 4,
+  "Kíli the Resourceful": 4,
+  "Lavaspur Boots": 4,
+  "Sacred Foundry": 4,
+  "Plains": 4,
+  "Raubahn, Bull of Ala Mhigo": 2,
+  "Sunbillow Verge": 4,
+  "Thorin, Mountain-king": 4,
+  "The Lonely Mountain": 4,
+  "Multiversal Passage": 1,
+  "Doc Ock's Tentacles": 3,
+  "Dwalin, Weaponmaster": 2,
+  "Giott, King of the Dwarves": 2
+ },
+ "side": {
+  "Erode": 2,
+  "Bofur, Reliable Guardian": 2,
+  "Shattered Acolyte": 2,
+  "Fíli the Pathfinder": 1,
+  "The Queen of Dale": 2,
+  "Rest in Peace": 2,
+  "Basilisk Collar": 1,
+  "Chainsaw": 3
+ },
+ "cards": {
+  "Cavern of Souls": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "As this land enters, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}: Add {C}.",
+     "{T}: Add one mana of any color. Spend this mana only to cast a cr"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Dáin's Company": {
+   "mana_cost": "{R}{W}",
+   "type": "Creature — Dwarf Warrior",
+   "oracle": "This creature has lifelink as long as you control another Dwarf.\nWhen this creature enters, look at the top four cards of your library. You may reveal a Dwarf or Equipment card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+   "pt": "2/2",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this creature enters, look at the top four cards of your library"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Equip",
+     "Lifelink"
+    ]
+   }
+  },
+  "Inspiring Vantage": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {R} or {W}.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}: Add {R} or {W}."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Dragonfire Blade": {
+   "mana_cost": "{1}",
+   "type": "Artifact — Equipment",
+   "oracle": "Equipped creature gets +2/+2 and has hexproof from monocolored.\nEquip {4}. This ability costs {1} less to activate for each color of the creature it targets.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Equip",
+     "Hexproof"
+    ]
+   }
+  },
+  "Dwarven Mauler": {
+   "mana_cost": "{R}",
+   "type": "Creature — Dwarf Warrior",
+   "oracle": "Equip abilities you activate that target this creature cost {2} less to activate.",
+   "pt": "2/1",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Equip"
+    ]
+   }
+  },
+  "Leyline Axe": {
+   "mana_cost": "{4}",
+   "type": "Artifact — Equipment",
+   "oracle": "If this card is in your opening hand, you may begin the game with it on the battlefield.\nEquipped creature gets +1/+1 and has double strike and trample.\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "Equip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)"
+    ],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Equip",
+     "Trample",
+     "Double strike"
+    ]
+   }
+  },
+  "Kíli the Resourceful": {
+   "mana_cost": "{1}{W}",
+   "type": "Legendary Creature — Dwarf Scout",
+   "oracle": "Storied (If you control three or more artifacts, legendaries, and/or Sagas, you have an enduring story for the rest of the game.)\nAs long as you have an enduring story, you may pay {0} rather than pay the equip cost of the first equip ability you activate each turn.\nWhenever another Dwarf or Equipment you control enters, draw a card. This ability triggers only once each turn.",
+   "pt": "1/2",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever another Dwarf or Equipment you control enters, draw a card"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Equip"
+    ]
+   }
+  },
+  "Lavaspur Boots": {
+   "mana_cost": "{1}",
+   "type": "Artifact — Equipment",
+   "oracle": "Equipped creature gets +1/+0 and has haste and ward {1}. (Whenever it becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)\nEquip {1}",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Ward",
+     "Equip",
+     "Haste"
+    ]
+   }
+  },
+  "Sacred Foundry": {
+   "mana_cost": "",
+   "type": "Land — Mountain Plains",
+   "oracle": "({T}: Add {R} or {W}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {R} or {W}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Plains": {
+   "mana_cost": "",
+   "type": "Basic Land — Plains",
+   "oracle": "({T}: Add {W}.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {W}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Raubahn, Bull of Ala Mhigo": {
+   "mana_cost": "{1}{R}",
+   "type": "Legendary Creature — Human Warrior",
+   "oracle": "Ward—Pay life equal to Raubahn's power.\nWhenever Raubahn attacks, attach up to one target Equipment you control to target attacking creature.",
+   "pt": "2/2",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever Raubahn attacks, attach up to one target Equipment you control to target attacking creature"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Ward",
+     "Equip"
+    ]
+   }
+  },
+  "Sunbillow Verge": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "{T}: Add {W}.\n{T}: Add {R}. Activate only if you control a Mountain or a Plains.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}: Add {W}.",
+     "{T}: Add {R}. Activate only if you control a Mountain or a Plains"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Thorin, Mountain-king": {
+   "mana_cost": "{3}{R}",
+   "type": "Legendary Creature — Dwarf Noble",
+   "oracle": "Trample\nWhen Thorin enters, attach any number of target Equipment you control to target creature you control. When one or more Equipment become attached to that creature this way, that creature deals damage equal to its power to up to one target creature.",
+   "pt": "3/4",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When Thorin enters, attach any number of target Equipment you control to target creature you control",
+     ". When one or more Equipment become attached to that creature this way, that creature deals damage equal to its power to up to one target creature"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Equip",
+     "Trample"
+    ]
+   }
+  },
+  "The Lonely Mountain": {
+   "mana_cost": "",
+   "type": "Land — Mountain",
+   "oracle": "({T}: Add {R}.)\nThis land enters tapped unless you control an Equipment.\n{4}{R}, {T}: Create a 2/2 red Dwarf creature token. This ability costs {1} less to activate for each Equipment you control. Activate only as a sorcery.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{4}{R}, {T}: Create a 2/2 red Dwarf creature token. This ability costs {1} less to activate for each Eq"
+    ],
+    "mana_abilities_untargetable": [
+     "({T}: Add {R}.)"
+    ],
+    "keywords_seen": [
+     "Equip"
+    ]
+   }
+  },
+  "Multiversal Passage": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "As this land enters, choose a basic land type. Then you may pay 2 life. If you don't, it enters tapped.\nThis land is the chosen type.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Doc Ock's Tentacles": {
+   "mana_cost": "{1}",
+   "type": "Artifact — Equipment",
+   "oracle": "Whenever a creature you control with mana value 5 or greater enters, you may attach this Equipment to it.\nEquipped creature gets +4/+4.\nEquip {5}",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever a creature you control with mana value 5 or greater enters, you may attach this Equipment to it"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Equip"
+    ]
+   }
+  },
+  "Dwalin, Weaponmaster": {
+   "mana_cost": "{1}{R/W}",
+   "type": "Legendary Creature — Dwarf Warrior",
+   "oracle": "First strike\nWhenever Dwalin enters or attacks, put a hone counter on each Equipment you control. (Each hone counter on an Equipment grants +1/+0 to equipped creature.)",
+   "pt": "2/1",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever Dwalin enters or attacks, put a hone counter on each Equipment you control"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Equip",
+     "First strike"
+    ]
+   }
+  },
+  "Giott, King of the Dwarves": {
+   "mana_cost": "{R}{W}",
+   "type": "Legendary Creature — Dwarf Noble",
+   "oracle": "Double strike\nWhenever Giott or another Dwarf you control enters and whenever an Equipment you control enters, you may discard a card. If you do, draw a card.",
+   "pt": "1/1",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever Giott or another Dwarf you control enters and whenever an Equipment you control enters, you may discard a card"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Equip",
+     "Double strike"
+    ]
+   }
+  },
+  "Erode": {
+   "mana_cost": "{W}",
+   "type": "Instant",
+   "oracle": "Destroy target creature or planeswalker. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Bofur, Reliable Guardian": {
+   "mana_cost": "{W} // {1}{W}",
+   "type": "Legendary Creature — Dwarf Scout // Instant — Adventure",
+   "oracle": "Lifelink // Target artifact or creature you control gains hexproof and indestructible until end of turn. (Then exile this card. You may cast the creature later from exile.)",
+   "pt": "1/1",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Lifelink",
+     "Hexproof",
+     "Indestructible"
+    ]
+   }
+  },
+  "Shattered Acolyte": {
+   "mana_cost": "{1}{W}",
+   "type": "Creature — Dwarf Warlock",
+   "oracle": "Lifelink\n{1}, Sacrifice this creature: Destroy target artifact or enchantment.",
+   "pt": "2/2",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{1}, Sacrifice this creature: Destroy target artifact or enchantment."
+    ],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Lifelink"
+    ]
+   }
+  },
+  "Fíli the Pathfinder": {
+   "mana_cost": "{3}{W}",
+   "type": "Legendary Creature — Dwarf Scout",
+   "oracle": "Storied (If you control three or more artifacts, legendaries, and/or Sagas, you have an enduring story for the rest of the game.)\nAs long as you have an enduring story, creatures you control get +1/+1.\nWhenever Fíli or another nontoken Dwarf you control enters, create a 2/2 red Dwarf creature token.",
+   "pt": "2/2",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever Fíli or another nontoken Dwarf you control enters, create a 2/2 red Dwarf creature token"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "The Queen of Dale": {
+   "mana_cost": "{1}{W}",
+   "type": "Legendary Creature — Human Noble",
+   "oracle": "Whenever an opponent casts their first noncreature spell each turn, you recruit. (Draw a card, then discard a card. If you discarded a nonland card, create a 1/1 white Human Soldier creature token.)",
+   "pt": "2/1",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever an opponent casts their first noncreature spell each turn, you recruit"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Rest in Peace": {
+   "mana_cost": "{1}{W}",
+   "type": "Enchantment",
+   "oracle": "When this enchantment enters, exile all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this enchantment enters, exile all graveyards"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Basilisk Collar": {
+   "mana_cost": "{1}",
+   "type": "Artifact — Equipment",
+   "oracle": "Equipped creature has deathtouch and lifelink. (Any amount of damage it deals to a creature is enough to destroy it. Damage dealt by this creature also causes you to gain that much life.)\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "Equip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)"
+    ],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Equip",
+     "Deathtouch",
+     "Lifelink"
+    ]
+   }
+  },
+  "Chainsaw": {
+   "mana_cost": "{1}{R}",
+   "type": "Artifact — Equipment",
+   "oracle": "When this Equipment enters, it deals 3 damage to up to one target creature.\nWhenever one or more creatures die, put a rev counter on this Equipment.\nEquipped creature gets +X/+0, where X is the number of rev counters on this Equipment.\nEquip {3}",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this Equipment enters, it deals 3 damage to up to one target creature",
+     "Whenever one or more creatures die, put a rev counter on this Equipment"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Equip"
+    ]
+   }
+  }
+ },
+ "our_cards": {
+  "Tishana's Tidebinder": {
+   "mc": "{2}{U}",
+   "type": "Creature — Merfolk Wizard",
+   "pt": "3/2",
+   "oracle": "Flash\nWhen this creature enters, counter up to one target activated or triggered ability. If an ability of an artifact, creature, or planeswalker is countered this way, that permanent loses all abilities for as long as this creature remains on the battlefield. (Mana abilities can't be targeted.)",
+   "keywords": [
+    "Flash"
+   ],
+   "set": "The Lost Caverns of Ixalan",
+   "released": "2023-11-17",
+   "rulings": [
+    [
+     "2023-11-10",
+     "If Tishana's Tidebinder leaves the battlefield before its triggered ability resolves, the target activated or triggered ability will still be countered, but the source of the ability won't lose its abilities at all."
+    ],
+    [
+     "2023-11-10",
+     "If the affected permanent gains an ability after Tishana's Tidebinder's effect begins to apply to it, it will keep that ability."
+    ],
+    [
+     "2023-11-10",
+     "Tishana's Tidebinder's triggered ability checks to see if the source of the ability is an artifact, creature, or planeswalker as it resolves. If it isn't, it won't lose all abilities, even if it was an artifact, creature, or planeswalker when the ability was activated or when it triggered."
+    ]
+   ],
+   "art": "https://cards.scryfall.io/art_crop/front/9/0/907b3d1d-8c85-4707-80b5-c4d832df9846.jpg?1783913786"
+  },
+  "The Wondrous Wasp": {
+   "mc": "{1}{U}",
+   "type": "Legendary Creature — Human Hero",
+   "pt": "2/1",
+   "oracle": "Flash\nFlying\nWasp's Sting — When The Wondrous Wasp enters, tap up to one target creature. It loses all abilities for as long as The Wondrous Wasp remains on the battlefield.",
+   "keywords": [
+    "Flying",
+    "Wasp's Sting",
+    "Flash"
+   ],
+   "set": "Marvel Super Heroes",
+   "released": "2026-06-26",
+   "rulings": [],
+   "art": "https://cards.scryfall.io/art_crop/front/4/8/484e80a4-1d5f-4c27-98a8-ee2ef9d6cbdc.jpg?1783902947"
+  }
+ },
+ "our_stock_list_sept_2026": {
+  "main": {
+   "Bitter Triumph": 2,
+   "Dream Beavers": 4,
+   "Kaito, Bane of Nightmares": 4,
+   "Floodpits Drowner": 4,
+   "Gloomlake Verge": 4,
+   "Island": 4,
+   "Restless Reef": 2,
+   "Requiting Hex": 4,
+   "Soulstone Sanctuary": 2,
+   "Shoot the Sheriff": 2,
+   "Wan Shi Tong, Librarian": 2,
+   "Spyglass Siren": 4,
+   "Spell Snare": 2,
+   "The Wondrous Wasp": 2,
+   "Tishana's Tidebinder": 1,
+   "Watery Grave": 4,
+   "We Say Thee Nay!": 2,
+   "Swamp": 4,
+   "Enduring Curiosity": 4,
+   "Hidden Lair": 3
+  },
+  "side": {
+   "Duress": 3,
+   "Day of Black Sun": 2,
+   "Annul": 1,
+   "Ghost Vacuum": 1,
+   "Spell Pierce": 2,
+   "Strategic Betrayal": 1,
+   "Vren, the Relentless": 1,
+   "Flashfreeze": 2,
+   "Faebloom Trick": 2
+  },
+  "note": "MTGGoldfish stock Dimir Midrange, Sept 2026. Main runs 1 Tishana's Tidebinder + 2 The Wondrous Wasp; Karsten Sept 3 aggregate and postboard both show 2 Tidebinder in the sideboard."
+ }
+}

@@ -324,6 +324,39 @@
    }
   },
   {
+   "slug": "standard-selesnya-landfall-woe",
+   "label": "Selesnya Landfall",
+   "share": 3.5,
+   "goldfish_deck_id": "7928754",
+   "main": {
+    "Dyadrine, Synthesis Amalgam": 2,
+    "Erode": 4,
+    "Escape Tunnel": 3,
+    "Fabled Passage": 4,
+    "Plains": 2,
+    "Esper Origins": 3,
+    "Mightform Harmonizer": 4,
+    "Llanowar Elves": 4,
+    "Shared Roots": 2,
+    "Mossborn Hydra": 3,
+    "Icetill Explorer": 4,
+    "Hushwood Verge": 1,
+    "Sazh's Chocobo": 4,
+    "Forest": 9,
+    "Earthbender Ascension": 4,
+    "Ba Sing Se": 3,
+    "Temple Garden": 4
+   },
+   "side": {
+    "Sapling Nursery": 4,
+    "Torpor Orb": 2,
+    "Surrak, Elusive Hunter": 2,
+    "Sheltered by Ghosts": 4,
+    "Rest in Peace": 2,
+    "Mossborn Hydra": 1
+   }
+  },
+  {
    "slug": "standard-azorius-momo-woe",
    "label": "Azorius Momo",
    "share": 2.5,
@@ -5430,6 +5463,90 @@
      "Vigilance"
     ]
    }
+  },
+  "Dyadrine, Synthesis Amalgam": {
+   "mana_cost": "{X}{G}{W}",
+   "type": "Legendary Artifact Creature — Construct",
+   "oracle": "Trample\nDyadrine enters with a number of +1/+1 counters on it equal to the amount of mana spent to cast it.\nWhenever you attack, you may remove a +1/+1 counter from each of two creatures you control. If you do, draw a card and create a 2/2 colorless Robot artifact creature token.",
+   "pt": "0/1",
+   "loyalty": null,
+   "keywords": [
+    "Trample"
+   ],
+   "std": "legal",
+   "ability_tags": {
+    "triggered": [
+     "Whenever you attack, you may remove a +1/+1 counter from each of two creatures you control"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Trample"
+    ]
+   }
+  },
+  "Hushwood Verge": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "{T}: Add {G}.\n{T}: Add {W}. Activate only if you control a Forest or a Plains.",
+   "pt": null,
+   "loyalty": null,
+   "keywords": [],
+   "std": "legal",
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}: Add {G}.",
+     "{T}: Add {W}. Activate only if you control a Forest or a Plains."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Temple Garden": {
+   "mana_cost": "",
+   "type": "Land — Forest Plains",
+   "oracle": "({T}: Add {G} or {W}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+   "pt": null,
+   "loyalty": null,
+   "keywords": [],
+   "std": "legal",
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {G} or {W}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Unholy Annex // Ritual Chamber": {
+   "mana_cost": "{2}{B} // {3}{B}{B}",
+   "type": "Enchantment — Room // Enchantment — Room",
+   "oracle": "At the beginning of your end step, draw a card. If you control a Demon, each opponent loses 2 life and you gain 2 life. Otherwise, you lose 2 life.\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.) // When you unlock this door, create a 6/6 black Demon creature token with flying.\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)",
+   "pt": null,
+   "loyalty": null,
+   "keywords": [],
+   "std": "legal",
+   "ability_tags": {
+    "triggered": [
+     "At the beginning of your end step, draw a card"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flying"
+    ]
+   }
   }
+ },
+ "aliases": {
+  "Dain's Company": "Dáin's Company",
+  "Dyadrine, Synthesis Amalgam": "Dyadrine, Synthesis Amalgam",
+  "Fili the Pathfinder": "Fíli the Pathfinder",
+  "Hushwood Verge": "Hushwood Verge",
+  "Kili the Resourceful": "Kíli the Resourceful",
+  "Temple Garden": "Temple Garden",
+  "Unholy Annex // Ritual Chamber": "Unholy Annex // Ritual Chamber"
  }
 }

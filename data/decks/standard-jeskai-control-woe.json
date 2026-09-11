@@ -1,0 +1,623 @@
+{
+ "deck": "Jeskai Control",
+ "meta_share_pct": 1.9,
+ "goldfish_deck_id": "7928749",
+ "main": {
+  "Broadside Barrage": 2,
+  "Consult the Star Charts": 3,
+  "Firebending Lesson": 4,
+  "Flashback": 1,
+  "Great Hall of the Biblioplex": 4,
+  "Hallowed Fountain": 4,
+  "Jeskai Revelation": 3,
+  "Mistrise Village": 1,
+  "Cori Mountain Monastery": 2,
+  "Petrified Hamlet": 2,
+  "Riverpyre Verge": 4,
+  "Sear": 4,
+  "Steam Vents": 4,
+  "Stock Up": 4,
+  "Get Lost": 2,
+  "Sundown Pass": 2,
+  "Tablet of Discovery": 4,
+  "Three Steps Ahead": 1,
+  "Traumatic Critique": 1,
+  "Island": 1,
+  "Mountain": 1,
+  "Prismari Charm": 1,
+  "Thundering Falls": 1,
+  "Thor, God of Thunder": 2,
+  "Spell Snare": 2
+ },
+ "side": {
+  "Slagstorm": 1,
+  "Broadside Barrage": 1,
+  "Disdainful Stroke": 1,
+  "Emeritus of Ideation": 2,
+  "Ghost Vacuum": 1,
+  "Flashfreeze": 3,
+  "Return the Favor": 1,
+  "Torpor Orb": 1,
+  "Petrified Hamlet": 1,
+  "Get Lost": 1,
+  "Wan Shi Tong, Librarian": 2
+ },
+ "cards": {
+  "Broadside Barrage": {
+   "mana_cost": "{1}{U}{R}",
+   "type": "Instant",
+   "oracle": "Broadside Barrage deals 5 damage to target creature or planeswalker. Draw a card, then discard a card.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Consult the Star Charts": {
+   "mana_cost": "{1}{U}",
+   "type": "Instant",
+   "oracle": "Kicker {1}{U} (You may pay an additional {1}{U} as you cast this spell.)\nLook at the top X cards of your library, where X is the number of lands you control. Put one of those cards into your hand. If this spell was kicked, put two of those cards into your hand instead. Put the rest on the bottom of your library in a random order.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Firebending Lesson": {
+   "mana_cost": "{R}",
+   "type": "Instant — Lesson",
+   "oracle": "Kicker {4} (You may pay an additional {4} as you cast this spell.)\nFirebending Lesson deals 2 damage to target creature. If this spell was kicked, it deals 5 damage to that creature instead.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Flashback": {
+   "mana_cost": "{R}",
+   "type": "Instant",
+   "oracle": "Target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flashback",
+     "Flash"
+    ]
+   }
+  },
+  "Great Hall of the Biblioplex": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "{T}: Add {C}.\n{T}, Pay 1 life: Add one mana of any color. Spend this mana only to cast an instant or sorcery spell.\n{5}: If this land isn't a creature, it becomes a 2/4 Wizard creature with \"Whenever you cast an instant or sorcery spell, this creature gets +1/+0 until end of turn.\" It's still a land.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{5}: If this land isn't a creature, it becomes a 2/4 Wizard creature with \"Whenever you cast an"
+    ],
+    "mana_abilities_untargetable": [
+     "{T}: Add {C}.",
+     "{T}, Pay 1 life: Add one mana of any color. Spend this mana only to cast an i"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Hallowed Fountain": {
+   "mana_cost": "",
+   "type": "Land — Plains Island",
+   "oracle": "({T}: Add {W} or {U}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {W} or {U}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Jeskai Revelation": {
+   "mana_cost": "{4}{U}{R}{W}",
+   "type": "Instant",
+   "oracle": "Return target spell or permanent to its owner's hand. Jeskai Revelation deals 4 damage to any target. Create two 1/1 white Monk creature tokens with prowess. Draw two cards. You gain 4 life.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Prowess"
+    ]
+   }
+  },
+  "Mistrise Village": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "This land enters tapped unless you control a Mountain or a Forest.\n{T}: Add {U}.\n{U}, {T}: The next spell you cast this turn can't be countered.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{U}, {T}: The next spell you cast this turn can't be countered."
+    ],
+    "mana_abilities_untargetable": [
+     "{T}: Add {U}."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Cori Mountain Monastery": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "This land enters tapped unless you control a Plains or an Island.\n{T}: Add {R}.\n{3}{R}, {T}: Exile the top card of your library. Until the end of your next turn, you may play that card.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{3}{R}, {T}: Exile the top card of your library. Until the end of your next turn, you may play that car"
+    ],
+    "mana_abilities_untargetable": [
+     "{T}: Add {R}."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Petrified Hamlet": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "When this land enters, choose a land card name.\nActivated abilities of sources with the chosen name can't be activated unless they're mana abilities.\nLands with the chosen name have \"{T}: Add {C}.\"\n{T}: Add {C}.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this land enters, choose a land card name"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "Lands with the chosen name have \"{T}: Add {C}.\"",
+     "{T}: Add {C}."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Riverpyre Verge": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "{T}: Add {R}.\n{T}: Add {U}. Activate only if you control an Island or a Mountain.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}: Add {R}.",
+     "{T}: Add {U}. Activate only if you control an Island or a Mountai"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Sear": {
+   "mana_cost": "{1}{R}",
+   "type": "Instant",
+   "oracle": "Sear deals 4 damage to target creature or planeswalker.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Steam Vents": {
+   "mana_cost": "",
+   "type": "Land — Island Mountain",
+   "oracle": "({T}: Add {U} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {U} or {R}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Stock Up": {
+   "mana_cost": "{2}{U}",
+   "type": "Sorcery",
+   "oracle": "Look at the top five cards of your library. Put two of them into your hand and the rest on the bottom of your library in any order.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Get Lost": {
+   "mana_cost": "{1}{W}",
+   "type": "Instant",
+   "oracle": "Destroy target creature, enchantment, or planeswalker. Its controller creates two Map tokens. (They're artifacts with \"{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.\")",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Sundown Pass": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "This land enters tapped unless you control two or more other lands.\n{T}: Add {R} or {W}.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}: Add {R} or {W}."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Tablet of Discovery": {
+   "mana_cost": "{2}{R}",
+   "type": "Artifact",
+   "oracle": "When this artifact enters, mill a card. You may play that card this turn. (To mill a card, put the top card of your library into your graveyard.)\n{T}: Add {R}.\n{T}: Add {R}{R}. Spend this mana only to cast instant and sorcery spells.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this artifact enters, mill a card"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}: Add {R}.",
+     "{T}: Add {R}{R}. Spend this mana only to cast instant and sorcery"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Three Steps Ahead": {
+   "mana_cost": "{U}",
+   "type": "Instant",
+   "oracle": "Spree (Choose one or more additional costs.)\n+ {1}{U} — Counter target spell.\n+ {3} — Create a token that's a copy of target artifact or creature you control.\n+ {2} — Draw two cards, then discard a card.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Traumatic Critique": {
+   "mana_cost": "{X}{U}{R}",
+   "type": "Instant",
+   "oracle": "Traumatic Critique deals X damage to any target. Draw two cards, then discard a card.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Island": {
+   "mana_cost": "",
+   "type": "Basic Land — Island",
+   "oracle": "({T}: Add {U}.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {U}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Mountain": {
+   "mana_cost": "",
+   "type": "Basic Land — Mountain",
+   "oracle": "({T}: Add {R}.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {R}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Prismari Charm": {
+   "mana_cost": "{U}{R}",
+   "type": "Instant",
+   "oracle": "Choose one —\n• Surveil 2, then draw a card.\n• Prismari Charm deals 1 damage to each of one or two targets.\n• Return target nonland permanent to its owner's hand.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Thundering Falls": {
+   "mana_cost": "",
+   "type": "Land — Island Mountain",
+   "oracle": "({T}: Add {U} or {R}.)\nThis land enters tapped.\nWhen this land enters, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this land enters, surveil 1"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {U} or {R}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Thor, God of Thunder": {
+   "mana_cost": "{3}{R}{R}",
+   "type": "Legendary Creature — God Warrior Hero",
+   "oracle": "Flying\nWhen Thor enters, exile target Equipment, instant, or sorcery card from your graveyard. Until the end of your next turn, you may play that card.\nWhenever you cast a noncreature spell, Thor deals damage equal to that spell's mana value to any target.",
+   "pt": "5/5",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When Thor enters, exile target Equipment, instant, or sorcery card from your graveyard",
+     "Whenever you cast a noncreature spell, Thor deals damage equal to that spell's mana value to any target"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Equip",
+     "Flying"
+    ]
+   }
+  },
+  "Spell Snare": {
+   "mana_cost": "{U}",
+   "type": "Instant",
+   "oracle": "Counter target spell with mana value 2.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Slagstorm": {
+   "mana_cost": "{1}{R}{R}",
+   "type": "Sorcery",
+   "oracle": "Choose one —\n• Slagstorm deals 3 damage to each creature.\n• Slagstorm deals 3 damage to each player.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Disdainful Stroke": {
+   "mana_cost": "{1}{U}",
+   "type": "Instant",
+   "oracle": "Counter target spell with mana value 4 or greater.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Emeritus of Ideation": {
+   "mana_cost": "{3}{U}{U} // {U}",
+   "type": "Creature — Human Wizard // Instant",
+   "oracle": "Flying, ward {2}\nThis creature enters prepared.\nWhenever this creature attacks, you may exile eight cards from your graveyard. If you do, this creature becomes prepared. // Target player draws three cards.",
+   "pt": "5/5",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever this creature attacks, you may exile eight cards from your graveyard"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Ward",
+     "Flying"
+    ]
+   }
+  },
+  "Ghost Vacuum": {
+   "mana_cost": "{1}",
+   "type": "Artifact",
+   "oracle": "{T}: Exile target card from a graveyard.\n{6}, {T}, Sacrifice this artifact: Put each creature card exiled with this artifact onto the battlefield under your control with a flying counter on it. Each of them is a 1/1 Spirit in addition to its other types. Activate only as a sorcery.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{T}: Exile target card from a graveyard.",
+     "{6}, {T}, Sacrifice this artifact: Put each creature card exiled with this artifact onto the battlefield under your control w"
+    ],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flying"
+    ]
+   }
+  },
+  "Flashfreeze": {
+   "mana_cost": "{1}{U}",
+   "type": "Instant",
+   "oracle": "Counter target red or green spell.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Return the Favor": {
+   "mana_cost": "{R}{R}",
+   "type": "Instant",
+   "oracle": "Spree (Choose one or more additional costs.)\n+ {1} — Copy target instant spell, sorcery spell, activated ability, or triggered ability. You may choose new targets for the copy.\n+ {1} — Change the target of target spell or ability with a single target.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Torpor Orb": {
+   "mana_cost": "{2}",
+   "type": "Artifact",
+   "oracle": "Creatures entering don't cause abilities to trigger.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Wan Shi Tong, Librarian": {
+   "mana_cost": "{X}{U}{U}",
+   "type": "Legendary Creature — Bird Spirit",
+   "oracle": "Flash\nFlying, vigilance\nWhen Wan Shi Tong enters, put X +1/+1 counters on him. Then draw half X cards, rounded down.\nWhenever an opponent searches their library, put a +1/+1 counter on Wan Shi Tong and draw a card.",
+   "pt": "1/1",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When Wan Shi Tong enters, put X +1/+1 counters on him",
+     "Whenever an opponent searches their library, put a +1/+1 counter on Wan Shi Tong and draw a card"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flash",
+     "Flying",
+     "Vigilance"
+    ]
+   }
+  }
+ },
+ "our_cards": {
+  "Tishana's Tidebinder": {
+   "mc": "{2}{U}",
+   "type": "Creature — Merfolk Wizard",
+   "pt": "3/2",
+   "oracle": "Flash\nWhen this creature enters, counter up to one target activated or triggered ability. If an ability of an artifact, creature, or planeswalker is countered this way, that permanent loses all abilities for as long as this creature remains on the battlefield. (Mana abilities can't be targeted.)",
+   "keywords": [
+    "Flash"
+   ],
+   "set": "The Lost Caverns of Ixalan",
+   "released": "2023-11-17",
+   "rulings": [
+    [
+     "2023-11-10",
+     "If Tishana's Tidebinder leaves the battlefield before its triggered ability resolves, the target activated or triggered ability will still be countered, but the source of the ability won't lose its abilities at all."
+    ],
+    [
+     "2023-11-10",
+     "If the affected permanent gains an ability after Tishana's Tidebinder's effect begins to apply to it, it will keep that ability."
+    ],
+    [
+     "2023-11-10",
+     "Tishana's Tidebinder's triggered ability checks to see if the source of the ability is an artifact, creature, or planeswalker as it resolves. If it isn't, it won't lose all abilities, even if it was an artifact, creature, or planeswalker when the ability was activated or when it triggered."
+    ]
+   ],
+   "art": "https://cards.scryfall.io/art_crop/front/9/0/907b3d1d-8c85-4707-80b5-c4d832df9846.jpg?1783913786"
+  },
+  "The Wondrous Wasp": {
+   "mc": "{1}{U}",
+   "type": "Legendary Creature — Human Hero",
+   "pt": "2/1",
+   "oracle": "Flash\nFlying\nWasp's Sting — When The Wondrous Wasp enters, tap up to one target creature. It loses all abilities for as long as The Wondrous Wasp remains on the battlefield.",
+   "keywords": [
+    "Flying",
+    "Wasp's Sting",
+    "Flash"
+   ],
+   "set": "Marvel Super Heroes",
+   "released": "2026-06-26",
+   "rulings": [],
+   "art": "https://cards.scryfall.io/art_crop/front/4/8/484e80a4-1d5f-4c27-98a8-ee2ef9d6cbdc.jpg?1783902947"
+  }
+ },
+ "our_stock_list_sept_2026": {
+  "main": {
+   "Bitter Triumph": 2,
+   "Dream Beavers": 4,
+   "Kaito, Bane of Nightmares": 4,
+   "Floodpits Drowner": 4,
+   "Gloomlake Verge": 4,
+   "Island": 4,
+   "Restless Reef": 2,
+   "Requiting Hex": 4,
+   "Soulstone Sanctuary": 2,
+   "Shoot the Sheriff": 2,
+   "Wan Shi Tong, Librarian": 2,
+   "Spyglass Siren": 4,
+   "Spell Snare": 2,
+   "The Wondrous Wasp": 2,
+   "Tishana's Tidebinder": 1,
+   "Watery Grave": 4,
+   "We Say Thee Nay!": 2,
+   "Swamp": 4,
+   "Enduring Curiosity": 4,
+   "Hidden Lair": 3
+  },
+  "side": {
+   "Duress": 3,
+   "Day of Black Sun": 2,
+   "Annul": 1,
+   "Ghost Vacuum": 1,
+   "Spell Pierce": 2,
+   "Strategic Betrayal": 1,
+   "Vren, the Relentless": 1,
+   "Flashfreeze": 2,
+   "Faebloom Trick": 2
+  },
+  "note": "MTGGoldfish stock Dimir Midrange, Sept 2026. Main runs 1 Tishana's Tidebinder + 2 The Wondrous Wasp; Karsten Sept 3 aggregate and postboard both show 2 Tidebinder in the sideboard."
+ }
+}

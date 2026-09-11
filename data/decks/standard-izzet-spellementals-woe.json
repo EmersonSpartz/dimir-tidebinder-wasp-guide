@@ -1,0 +1,483 @@
+{
+ "deck": "Izzet Spellementals",
+ "meta_share_pct": 12.2,
+ "goldfish_deck_id": "7946927",
+ "main": {
+  "Riverpyre Verge": 4,
+  "Eddymurk Crab": 4,
+  "Hearth Elemental": 4,
+  "Impractical Joke": 1,
+  "Sear": 1,
+  "Opt": 4,
+  "Prismari Charm": 4,
+  "Island": 6,
+  "Spirebluff Canal": 4,
+  "Burst Lightning": 3,
+  "Sunderflock": 4,
+  "Traumatic Critique": 4,
+  "Winternight Stories": 2,
+  "Get Out": 2,
+  "Sleight of Hand": 4,
+  "Spell Pierce": 2,
+  "Stormcarved Coast": 1,
+  "Spell Snare": 1,
+  "Steam Vents": 4,
+  "Multiversal Passage": 2
+ },
+ "side": {
+  "Annul": 2,
+  "Hydro-Man, Fluid Felon": 1,
+  "Colorstorm Stallion": 4,
+  "Shore Up": 2,
+  "Spell Snare": 2,
+  "Flashfreeze": 1,
+  "Disdainful Stroke": 2,
+  "Sear": 1
+ },
+ "cards": {
+  "Riverpyre Verge": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "{T}: Add {R}.\n{T}: Add {U}. Activate only if you control an Island or a Mountain.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}: Add {R}.",
+     "{T}: Add {U}. Activate only if you control an Island or a Mountai"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Eddymurk Crab": {
+   "mana_cost": "{5}{U}{U}",
+   "type": "Creature — Elemental Crab",
+   "oracle": "Flash\nThis spell costs {1} less to cast for each instant and sorcery card in your graveyard.\nThis creature enters tapped if it's not your turn.\nWhen this creature enters, tap up to two target creatures.",
+   "pt": "5/5",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this creature enters, tap up to two target creatures"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flash"
+    ]
+   }
+  },
+  "Hearth Elemental": {
+   "mana_cost": "{5}{R} // {1}{R}",
+   "type": "Creature — Elemental // Sorcery — Adventure",
+   "oracle": "This spell costs {X} less to cast, where X is the number of cards in your graveyard that are instant cards, sorcery cards, and/or have an Adventure. // Discard your hand, then draw two cards. (Then exile this card. You may cast the creature later from exile.)",
+   "pt": "4/5",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Impractical Joke": {
+   "mana_cost": "{R}",
+   "type": "Sorcery",
+   "oracle": "Damage can't be prevented this turn. Impractical Joke deals 3 damage to up to one target creature or planeswalker.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Sear": {
+   "mana_cost": "{1}{R}",
+   "type": "Instant",
+   "oracle": "Sear deals 4 damage to target creature or planeswalker.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Opt": {
+   "mana_cost": "{U}",
+   "type": "Instant",
+   "oracle": "Scry 1. (Look at the top card of your library. You may put that card on the bottom.)\nDraw a card.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Prismari Charm": {
+   "mana_cost": "{U}{R}",
+   "type": "Instant",
+   "oracle": "Choose one —\n• Surveil 2, then draw a card.\n• Prismari Charm deals 1 damage to each of one or two targets.\n• Return target nonland permanent to its owner's hand.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Island": {
+   "mana_cost": "",
+   "type": "Basic Land — Island",
+   "oracle": "({T}: Add {U}.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {U}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Spirebluff Canal": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {U} or {R}.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}: Add {U} or {R}."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Burst Lightning": {
+   "mana_cost": "{R}",
+   "type": "Instant",
+   "oracle": "Kicker {4} (You may pay an additional {4} as you cast this spell.)\nBurst Lightning deals 2 damage to any target. If this spell was kicked, it deals 4 damage instead.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Sunderflock": {
+   "mana_cost": "{7}{U}{U}",
+   "type": "Creature — Elemental",
+   "oracle": "This spell costs {X} less to cast, where X is the greatest mana value among Elementals you control.\nFlying\nWhen this creature enters, if you cast it, return all non-Elemental creatures to their owners' hands.",
+   "pt": "5/5",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this creature enters, if you cast it, return all non-Elemental creatures to their owners' hands"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flying"
+    ]
+   }
+  },
+  "Traumatic Critique": {
+   "mana_cost": "{X}{U}{R}",
+   "type": "Instant",
+   "oracle": "Traumatic Critique deals X damage to any target. Draw two cards, then discard a card.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Winternight Stories": {
+   "mana_cost": "{2}{U}",
+   "type": "Sorcery",
+   "oracle": "Draw three cards. Then discard two cards unless you discard a creature card.\nHarmonize {4}{U} (You may cast this card from your graveyard for its harmonize cost. You may tap a creature you control to reduce that cost by {X}, where X is its power. Then exile this spell.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Get Out": {
+   "mana_cost": "{U}{U}",
+   "type": "Instant",
+   "oracle": "Choose one —\n• Counter target creature or enchantment spell.\n• Return one or two target creatures and/or enchantments you own to your hand.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Sleight of Hand": {
+   "mana_cost": "{U}",
+   "type": "Sorcery",
+   "oracle": "Look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Spell Pierce": {
+   "mana_cost": "{U}",
+   "type": "Instant",
+   "oracle": "Counter target noncreature spell unless its controller pays {2}.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Stormcarved Coast": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "This land enters tapped unless you control two or more other lands.\n{T}: Add {U} or {R}.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}: Add {U} or {R}."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Spell Snare": {
+   "mana_cost": "{U}",
+   "type": "Instant",
+   "oracle": "Counter target spell with mana value 2.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Steam Vents": {
+   "mana_cost": "",
+   "type": "Land — Island Mountain",
+   "oracle": "({T}: Add {U} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {U} or {R}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Multiversal Passage": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "As this land enters, choose a basic land type. Then you may pay 2 life. If you don't, it enters tapped.\nThis land is the chosen type.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Annul": {
+   "mana_cost": "{U}",
+   "type": "Instant",
+   "oracle": "Counter target artifact or enchantment spell.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Hydro-Man, Fluid Felon": {
+   "mana_cost": "{U}{U}",
+   "type": "Legendary Creature — Elemental Villain",
+   "oracle": "Whenever you cast a blue spell, if Hydro-Man is a creature, he gets +1/+1 until end of turn.\nAt the beginning of your end step, untap Hydro-Man. Until your next turn, he becomes a land and gains \"{T}: Add {U}.\" (He's not a creature during that time.)",
+   "pt": "2/2",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever you cast a blue spell, if Hydro-Man is a creature, he gets +1/+1 until end of turn",
+     "At the beginning of your end step, untap Hydro-Man"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Colorstorm Stallion": {
+   "mana_cost": "{1}{U}{R}",
+   "type": "Creature — Elemental Horse",
+   "oracle": "Ward {1}, haste\nOpus — Whenever you cast an instant or sorcery spell, this creature gets +1/+1 until end of turn. If five or more mana was spent to cast that spell, create a token that's a copy of this creature.",
+   "pt": "3/3",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Ward",
+     "Haste"
+    ]
+   }
+  },
+  "Shore Up": {
+   "mana_cost": "{U}",
+   "type": "Instant",
+   "oracle": "Target creature you control gets +1/+1 and gains hexproof until end of turn. Untap it. (It can't be the target of spells or abilities your opponents control.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Hexproof"
+    ]
+   }
+  },
+  "Flashfreeze": {
+   "mana_cost": "{1}{U}",
+   "type": "Instant",
+   "oracle": "Counter target red or green spell.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Disdainful Stroke": {
+   "mana_cost": "{1}{U}",
+   "type": "Instant",
+   "oracle": "Counter target spell with mana value 4 or greater.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  }
+ },
+ "our_cards": {
+  "Tishana's Tidebinder": {
+   "mc": "{2}{U}",
+   "type": "Creature — Merfolk Wizard",
+   "pt": "3/2",
+   "oracle": "Flash\nWhen this creature enters, counter up to one target activated or triggered ability. If an ability of an artifact, creature, or planeswalker is countered this way, that permanent loses all abilities for as long as this creature remains on the battlefield. (Mana abilities can't be targeted.)",
+   "keywords": [
+    "Flash"
+   ],
+   "set": "The Lost Caverns of Ixalan",
+   "released": "2023-11-17",
+   "rulings": [
+    [
+     "2023-11-10",
+     "If Tishana's Tidebinder leaves the battlefield before its triggered ability resolves, the target activated or triggered ability will still be countered, but the source of the ability won't lose its abilities at all."
+    ],
+    [
+     "2023-11-10",
+     "If the affected permanent gains an ability after Tishana's Tidebinder's effect begins to apply to it, it will keep that ability."
+    ],
+    [
+     "2023-11-10",
+     "Tishana's Tidebinder's triggered ability checks to see if the source of the ability is an artifact, creature, or planeswalker as it resolves. If it isn't, it won't lose all abilities, even if it was an artifact, creature, or planeswalker when the ability was activated or when it triggered."
+    ]
+   ],
+   "art": "https://cards.scryfall.io/art_crop/front/9/0/907b3d1d-8c85-4707-80b5-c4d832df9846.jpg?1783913786"
+  },
+  "The Wondrous Wasp": {
+   "mc": "{1}{U}",
+   "type": "Legendary Creature — Human Hero",
+   "pt": "2/1",
+   "oracle": "Flash\nFlying\nWasp's Sting — When The Wondrous Wasp enters, tap up to one target creature. It loses all abilities for as long as The Wondrous Wasp remains on the battlefield.",
+   "keywords": [
+    "Flying",
+    "Wasp's Sting",
+    "Flash"
+   ],
+   "set": "Marvel Super Heroes",
+   "released": "2026-06-26",
+   "rulings": [],
+   "art": "https://cards.scryfall.io/art_crop/front/4/8/484e80a4-1d5f-4c27-98a8-ee2ef9d6cbdc.jpg?1783902947"
+  }
+ },
+ "our_stock_list_sept_2026": {
+  "main": {
+   "Bitter Triumph": 2,
+   "Dream Beavers": 4,
+   "Kaito, Bane of Nightmares": 4,
+   "Floodpits Drowner": 4,
+   "Gloomlake Verge": 4,
+   "Island": 4,
+   "Restless Reef": 2,
+   "Requiting Hex": 4,
+   "Soulstone Sanctuary": 2,
+   "Shoot the Sheriff": 2,
+   "Wan Shi Tong, Librarian": 2,
+   "Spyglass Siren": 4,
+   "Spell Snare": 2,
+   "The Wondrous Wasp": 2,
+   "Tishana's Tidebinder": 1,
+   "Watery Grave": 4,
+   "We Say Thee Nay!": 2,
+   "Swamp": 4,
+   "Enduring Curiosity": 4,
+   "Hidden Lair": 3
+  },
+  "side": {
+   "Duress": 3,
+   "Day of Black Sun": 2,
+   "Annul": 1,
+   "Ghost Vacuum": 1,
+   "Spell Pierce": 2,
+   "Strategic Betrayal": 1,
+   "Vren, the Relentless": 1,
+   "Flashfreeze": 2,
+   "Faebloom Trick": 2
+  },
+  "note": "MTGGoldfish stock Dimir Midrange, Sept 2026. Main runs 1 Tishana's Tidebinder + 2 The Wondrous Wasp; Karsten Sept 3 aggregate and postboard both show 2 Tidebinder in the sideboard."
+ }
+}

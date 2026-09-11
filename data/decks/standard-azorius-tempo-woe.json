@@ -1,0 +1,617 @@
+{
+ "deck": "Azorius Tempo",
+ "meta_share_pct": 1.5,
+ "goldfish_deck_id": "7942582",
+ "main": {
+  "Aang, Swift Savior": 3,
+  "Abandoned Air Temple": 2,
+  "Avatar's Wrath": 2,
+  "Aven Interrupter": 4,
+  "Bilbo's Gambit": 3,
+  "Enduring Curiosity": 2,
+  "Enduring Innocence": 2,
+  "Erode": 1,
+  "Floodfarm Verge": 3,
+  "Floodpits Drowner": 2,
+  "Ghost Vacuum": 1,
+  "Hallowed Fountain": 3,
+  "High Noon": 4,
+  "Island": 6,
+  "Jennifer Walters": 1,
+  "Multiversal Passage": 2,
+  "Plains": 6,
+  "Restless Anchorage": 1,
+  "Settle the Wreckage": 1,
+  "Skycoach Conductor": 4,
+  "Spell Pierce": 1,
+  "Temple of Enlightenment": 1,
+  "The Eagles Are Coming!": 2,
+  "The Wondrous Wasp": 1,
+  "Voice of Victory": 2
+ },
+ "side": {
+  "Clarion Conqueror": 1,
+  "Disdainful Stroke": 2,
+  "Erode": 2,
+  "Flashfreeze": 2,
+  "Ghost Vacuum": 1,
+  "Petrified Hamlet": 1,
+  "Pyrrhic Strike": 3,
+  "Seam Rip": 2,
+  "Settle the Wreckage": 1
+ },
+ "cards": {
+  "Aang, Swift Savior": {
+   "mana_cost": "{1}{W}{U} // ",
+   "type": "Legendary Creature — Human Avatar Ally // Legendary Creature — Avatar Spirit Ally",
+   "oracle": "Flash\nFlying\nWhen Aang enters, airbend up to one other target creature or spell. (Exile it. While it's exiled, its owner may cast it for {2} rather than its mana cost.)\nWaterbend {8}: Transform Aang. // Reach, trample\nWhenever Aang and La attack, put a +1/+1 counter on each tapped creature you control.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When Aang enters, airbend up to one other target creature or spell",
+     "Whenever Aang and La attack, put a +1/+1 counter on each tapped creature you control"
+    ],
+    "activated": [
+     "Waterbend {8}: Transform Aang. // Reach, trample"
+    ],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flash",
+     "Flying",
+     "Trample"
+    ]
+   }
+  },
+  "Abandoned Air Temple": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "This land enters tapped unless you control a basic land.\n{T}: Add {W}.\n{3}{W}, {T}: Put a +1/+1 counter on each creature you control.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{3}{W}, {T}: Put a +1/+1 counter on each creature you control."
+    ],
+    "mana_abilities_untargetable": [
+     "{T}: Add {W}."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Avatar's Wrath": {
+   "mana_cost": "{2}{W}{W}",
+   "type": "Sorcery",
+   "oracle": "Choose up to one target creature, then airbend all other creatures. (Exile them. While each one is exiled, its owner may cast it for {2} rather than its mana cost.)\nUntil your next turn, your opponents can't cast spells from anywhere other than their hands.\nExile Avatar's Wrath.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Aven Interrupter": {
+   "mana_cost": "{1}{W}{W}",
+   "type": "Creature — Bird Rogue",
+   "oracle": "Flash\nFlying\nWhen this creature enters, exile target spell. It becomes plotted. (Its owner may cast it as a sorcery on a later turn without paying its mana cost.)\nSpells your opponents cast from graveyards or from exile cost {2} more to cast.",
+   "pt": "2/2",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this creature enters, exile target spell"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Plot",
+     "Flash",
+     "Flying"
+    ]
+   }
+  },
+  "Bilbo's Gambit": {
+   "mana_cost": "{1}{W}",
+   "type": "Instant",
+   "oracle": "Gift a Treasure (You may promise an opponent a gift as you cast this spell. If you do, they create a Treasure token before its other effects. It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nReturn target spell to its owner's hand. If the gift was promised, players can't cast spells this turn.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Enduring Curiosity": {
+   "mana_cost": "{2}{U}{U}",
+   "type": "Enchantment Creature — Cat Glimmer",
+   "oracle": "Flash\nWhenever a creature you control deals combat damage to a player, draw a card.\nWhen Enduring Curiosity dies, if it was a creature, return it to the battlefield under its owner's control. It's an enchantment. (It's not a creature.)",
+   "pt": "4/3",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever a creature you control deals combat damage to a player, draw a card",
+     "When Enduring Curiosity dies, if it was a creature, return it to the battlefield under its owner's control"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flash"
+    ]
+   }
+  },
+  "Enduring Innocence": {
+   "mana_cost": "{1}{W}{W}",
+   "type": "Enchantment Creature — Sheep Glimmer",
+   "oracle": "Lifelink\nWhenever one or more other creatures you control with power 2 or less enter, draw a card. This ability triggers only once each turn.\nWhen Enduring Innocence dies, if it was a creature, return it to the battlefield under its owner's control. It's an enchantment. (It's not a creature.)",
+   "pt": "2/1",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever one or more other creatures you control with power 2 or less enter, draw a card",
+     "When Enduring Innocence dies, if it was a creature, return it to the battlefield under its owner's control"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Lifelink"
+    ]
+   }
+  },
+  "Erode": {
+   "mana_cost": "{W}",
+   "type": "Instant",
+   "oracle": "Destroy target creature or planeswalker. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Floodfarm Verge": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "{T}: Add {W}.\n{T}: Add {U}. Activate only if you control a Plains or an Island.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}: Add {W}.",
+     "{T}: Add {U}. Activate only if you control a Plains or an Island."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Floodpits Drowner": {
+   "mana_cost": "{1}{U}",
+   "type": "Creature — Merfolk",
+   "oracle": "Flash\nVigilance\nWhen this creature enters, tap target creature an opponent controls and put a stun counter on it.\n{1}{U}, {T}: Shuffle this creature and target creature with a stun counter on it into their owners' libraries.",
+   "pt": "2/1",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this creature enters, tap target creature an opponent controls and put a stun counter on it"
+    ],
+    "activated": [
+     "{1}{U}, {T}: Shuffle this creature and target creature with a stun counter on it into their owners' lib"
+    ],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flash",
+     "Vigilance"
+    ]
+   }
+  },
+  "Ghost Vacuum": {
+   "mana_cost": "{1}",
+   "type": "Artifact",
+   "oracle": "{T}: Exile target card from a graveyard.\n{6}, {T}, Sacrifice this artifact: Put each creature card exiled with this artifact onto the battlefield under your control with a flying counter on it. Each of them is a 1/1 Spirit in addition to its other types. Activate only as a sorcery.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{T}: Exile target card from a graveyard.",
+     "{6}, {T}, Sacrifice this artifact: Put each creature card exiled with this artifact onto the battlefield under your control w"
+    ],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flying"
+    ]
+   }
+  },
+  "Hallowed Fountain": {
+   "mana_cost": "",
+   "type": "Land — Plains Island",
+   "oracle": "({T}: Add {W} or {U}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {W} or {U}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "High Noon": {
+   "mana_cost": "{1}{W}",
+   "type": "Enchantment",
+   "oracle": "Each player can't cast more than one spell each turn.\n{4}{R}, Sacrifice this enchantment: It deals 5 damage to any target.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{4}{R}, Sacrifice this enchantment: It deals 5 damage to any target."
+    ],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Island": {
+   "mana_cost": "",
+   "type": "Basic Land — Island",
+   "oracle": "({T}: Add {U}.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {U}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Jennifer Walters": {
+   "mana_cost": "{1}{W} // {3}{G}{W}{W}",
+   "type": "Legendary Creature — Human Advisor Hero // Legendary Creature — Gamma Hero",
+   "oracle": "Your opponents can't cast spells during your turn.\n{3}{G}{W}{W}: Transform Jennifer Walters. Activate only as a sorcery. // Reach, trample\nYour opponents can't cast spells during your turn.\nWhenever a creature you control is dealt damage, you may have The Sensational She-Hulk deal that much damage to any target. Do this only once each turn.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever a creature you control is dealt damage, you may have The Sensational She-Hulk deal that much damage to any target"
+    ],
+    "activated": [
+     "{3}{G}{W}{W}: Transform Jennifer Walters. Activate only as a sorcery. // Reach, trample"
+    ],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Trample"
+    ]
+   }
+  },
+  "Multiversal Passage": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "As this land enters, choose a basic land type. Then you may pay 2 life. If you don't, it enters tapped.\nThis land is the chosen type.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Plains": {
+   "mana_cost": "",
+   "type": "Basic Land — Plains",
+   "oracle": "({T}: Add {W}.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {W}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Restless Anchorage": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "This land enters tapped.\n{T}: Add {W} or {U}.\n{1}{W}{U}: Until end of turn, this land becomes a 2/3 white and blue Bird creature with flying. It's still a land.\nWhenever this land attacks, create a Map token.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever this land attacks, create a Map token"
+    ],
+    "activated": [
+     "{1}{W}{U}: Until end of turn, this land becomes a 2/3 white and blue Bird creature with flying. It's "
+    ],
+    "mana_abilities_untargetable": [
+     "{T}: Add {W} or {U}."
+    ],
+    "keywords_seen": [
+     "Flying"
+    ]
+   }
+  },
+  "Settle the Wreckage": {
+   "mana_cost": "{2}{W}{W}",
+   "type": "Instant",
+   "oracle": "Exile all attacking creatures target player controls. That player may search their library for that many basic land cards, put those cards onto the battlefield tapped, then shuffle.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Skycoach Conductor": {
+   "mana_cost": "{2}{U} // {U}",
+   "type": "Creature — Bird Pilot // Instant",
+   "oracle": "Flash\nFlying, vigilance\nThis creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.) // Exile target non-Pilot creature you control, then return that card to the battlefield under its owner's control.",
+   "pt": "2/3",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flash",
+     "Flying",
+     "Vigilance"
+    ]
+   }
+  },
+  "Spell Pierce": {
+   "mana_cost": "{U}",
+   "type": "Instant",
+   "oracle": "Counter target noncreature spell unless its controller pays {2}.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Temple of Enlightenment": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "This land enters tapped.\nWhen this land enters, scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{T}: Add {W} or {U}.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this land enters, scry 1"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}: Add {W} or {U}."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "The Eagles Are Coming!": {
+   "mana_cost": "{1}{W}",
+   "type": "Instant",
+   "oracle": "Kicker {2}{W}{W} (You may pay an additional {2}{W}{W} as you cast this spell.)\nChoose target creature you own. If this spell was kicked, instead choose any number of target creatures you own. Return each chosen creature to your hand. At the beginning of the next upkeep, create a 4/4 white Bird Soldier creature token with flying for each creature returned to your hand this way.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     ". At the beginning of the next upkeep, create a 4/4 white Bird Soldier creature token with flying for each creature returned to your hand this way"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flying"
+    ]
+   }
+  },
+  "The Wondrous Wasp": {
+   "mana_cost": "{1}{U}",
+   "type": "Legendary Creature — Human Hero",
+   "oracle": "Flash\nFlying\nWasp's Sting — When The Wondrous Wasp enters, tap up to one target creature. It loses all abilities for as long as The Wondrous Wasp remains on the battlefield.",
+   "pt": "2/1",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flash",
+     "Flying"
+    ]
+   }
+  },
+  "Voice of Victory": {
+   "mana_cost": "{1}{W}",
+   "type": "Creature — Human Bard",
+   "oracle": "Mobilize 2 (Whenever this creature attacks, create two tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)\nYour opponents can't cast spells during your turn.",
+   "pt": "1/3",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Clarion Conqueror": {
+   "mana_cost": "{2}{W}",
+   "type": "Creature — Dragon",
+   "oracle": "Flying\nActivated abilities of artifacts, creatures, and planeswalkers can't be activated.",
+   "pt": "3/3",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flying"
+    ]
+   }
+  },
+  "Disdainful Stroke": {
+   "mana_cost": "{1}{U}",
+   "type": "Instant",
+   "oracle": "Counter target spell with mana value 4 or greater.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Flashfreeze": {
+   "mana_cost": "{1}{U}",
+   "type": "Instant",
+   "oracle": "Counter target red or green spell.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Petrified Hamlet": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "When this land enters, choose a land card name.\nActivated abilities of sources with the chosen name can't be activated unless they're mana abilities.\nLands with the chosen name have \"{T}: Add {C}.\"\n{T}: Add {C}.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this land enters, choose a land card name"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "Lands with the chosen name have \"{T}: Add {C}.\"",
+     "{T}: Add {C}."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Pyrrhic Strike": {
+   "mana_cost": "{2}{W}",
+   "type": "Instant",
+   "oracle": "As an additional cost to cast this spell, you may blight 2. (You may put two -1/-1 counters on a creature you control.)\nChoose one. If this spell's additional cost was paid, choose both instead.\n• Destroy target artifact or enchantment.\n• Destroy target creature with mana value 3 or greater.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Seam Rip": {
+   "mana_cost": "{W}",
+   "type": "Enchantment",
+   "oracle": "When this enchantment enters, exile target nonland permanent an opponent controls with mana value 2 or less until this enchantment leaves the battlefield.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this enchantment enters, exile target nonland permanent an opponent controls with mana value 2 or less until this enchantment leaves the battlefield"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  }
+ },
+ "our_cards": {
+  "Tishana's Tidebinder": {
+   "mc": "{2}{U}",
+   "type": "Creature — Merfolk Wizard",
+   "pt": "3/2",
+   "oracle": "Flash\nWhen this creature enters, counter up to one target activated or triggered ability. If an ability of an artifact, creature, or planeswalker is countered this way, that permanent loses all abilities for as long as this creature remains on the battlefield. (Mana abilities can't be targeted.)",
+   "keywords": [
+    "Flash"
+   ],
+   "set": "The Lost Caverns of Ixalan",
+   "released": "2023-11-17",
+   "rulings": [
+    [
+     "2023-11-10",
+     "If Tishana's Tidebinder leaves the battlefield before its triggered ability resolves, the target activated or triggered ability will still be countered, but the source of the ability won't lose its abilities at all."
+    ],
+    [
+     "2023-11-10",
+     "If the affected permanent gains an ability after Tishana's Tidebinder's effect begins to apply to it, it will keep that ability."
+    ],
+    [
+     "2023-11-10",
+     "Tishana's Tidebinder's triggered ability checks to see if the source of the ability is an artifact, creature, or planeswalker as it resolves. If it isn't, it won't lose all abilities, even if it was an artifact, creature, or planeswalker when the ability was activated or when it triggered."
+    ]
+   ],
+   "art": "https://cards.scryfall.io/art_crop/front/9/0/907b3d1d-8c85-4707-80b5-c4d832df9846.jpg?1783913786"
+  },
+  "The Wondrous Wasp": {
+   "mc": "{1}{U}",
+   "type": "Legendary Creature — Human Hero",
+   "pt": "2/1",
+   "oracle": "Flash\nFlying\nWasp's Sting — When The Wondrous Wasp enters, tap up to one target creature. It loses all abilities for as long as The Wondrous Wasp remains on the battlefield.",
+   "keywords": [
+    "Flying",
+    "Wasp's Sting",
+    "Flash"
+   ],
+   "set": "Marvel Super Heroes",
+   "released": "2026-06-26",
+   "rulings": [],
+   "art": "https://cards.scryfall.io/art_crop/front/4/8/484e80a4-1d5f-4c27-98a8-ee2ef9d6cbdc.jpg?1783902947"
+  }
+ },
+ "our_stock_list_sept_2026": {
+  "main": {
+   "Bitter Triumph": 2,
+   "Dream Beavers": 4,
+   "Kaito, Bane of Nightmares": 4,
+   "Floodpits Drowner": 4,
+   "Gloomlake Verge": 4,
+   "Island": 4,
+   "Restless Reef": 2,
+   "Requiting Hex": 4,
+   "Soulstone Sanctuary": 2,
+   "Shoot the Sheriff": 2,
+   "Wan Shi Tong, Librarian": 2,
+   "Spyglass Siren": 4,
+   "Spell Snare": 2,
+   "The Wondrous Wasp": 2,
+   "Tishana's Tidebinder": 1,
+   "Watery Grave": 4,
+   "We Say Thee Nay!": 2,
+   "Swamp": 4,
+   "Enduring Curiosity": 4,
+   "Hidden Lair": 3
+  },
+  "side": {
+   "Duress": 3,
+   "Day of Black Sun": 2,
+   "Annul": 1,
+   "Ghost Vacuum": 1,
+   "Spell Pierce": 2,
+   "Strategic Betrayal": 1,
+   "Vren, the Relentless": 1,
+   "Flashfreeze": 2,
+   "Faebloom Trick": 2
+  },
+  "note": "MTGGoldfish stock Dimir Midrange, Sept 2026. Main runs 1 Tishana's Tidebinder + 2 The Wondrous Wasp; Karsten Sept 3 aggregate and postboard both show 2 Tidebinder in the sideboard."
+ }
+}

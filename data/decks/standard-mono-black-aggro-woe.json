@@ -1,0 +1,368 @@
+{
+ "deck": "Mono-Black Aggro",
+ "meta_share_pct": 1.7,
+ "goldfish_deck_id": "7930672",
+ "main": {
+  "Forsaken Miner": 4,
+  "Iridescent Vinelasher": 4,
+  "Swamp": 18,
+  "Soulstone Sanctuary": 3,
+  "Mudflat Village": 2,
+  "Nighthowl Pursuer": 4,
+  "Desolation Prowler": 4,
+  "Sunset Saboteur": 4,
+  "Shoot the Sheriff": 4,
+  "Corpses of the Lost": 4,
+  "Dissection Practice": 4,
+  "Gollum, Riddle Master": 3,
+  "Requiting Hex": 2
+ },
+ "side": {
+  "Duress": 4,
+  "Strategic Betrayal": 3,
+  "Elegy Acolyte": 2,
+  "Day of Black Sun": 3,
+  "Requiting Hex": 2,
+  "Gollum, Riddle Master": 1
+ },
+ "cards": {
+  "Forsaken Miner": {
+   "mana_cost": "{B}",
+   "type": "Creature — Skeleton Rogue",
+   "oracle": "This creature can't block.\nWhenever you commit a crime, you may pay {B}. If you do, return this card from your graveyard to the battlefield. (Targeting opponents, anything they control, and/or cards in their graveyards is a crime.)",
+   "pt": "2/2",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever you commit a crime, you may pay {B}"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Iridescent Vinelasher": {
+   "mana_cost": "{B}",
+   "type": "Creature — Lizard Assassin",
+   "oracle": "Offspring {2} (You may pay an additional {2} as you cast this spell. If you do, when this creature enters, create a 1/1 token copy of it.)\nLandfall — Whenever a land you control enters, this creature deals 1 damage to target opponent.",
+   "pt": "1/2",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Landfall",
+     "Offspring"
+    ]
+   }
+  },
+  "Swamp": {
+   "mana_cost": "",
+   "type": "Basic Land — Swamp",
+   "oracle": "({T}: Add {B}.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {B}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Soulstone Sanctuary": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "{T}: Add {C}.\n{4}: This land becomes a 3/3 creature with vigilance and all creature types. It's still a land.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{4}: This land becomes a 3/3 creature with vigilance and all creature types. It's still a land."
+    ],
+    "mana_abilities_untargetable": [
+     "{T}: Add {C}."
+    ],
+    "keywords_seen": [
+     "Vigilance"
+    ]
+   }
+  },
+  "Mudflat Village": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "{T}: Add {C}.\n{T}: Add {B}. Spend this mana only to cast a creature spell.\n{1}{B}, {T}, Sacrifice this land: Return target Bat, Lizard, Rat, or Squirrel card from your graveyard to your hand.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{1}{B}, {T}, Sacrifice this land: Return target Bat, Lizard, Rat, or Squirrel card from your graveyard to your hand."
+    ],
+    "mana_abilities_untargetable": [
+     "{T}: Add {C}.",
+     "{T}: Add {B}. Spend this mana only to cast a creature spell."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Nighthowl Pursuer": {
+   "mana_cost": "{B}",
+   "type": "Creature — Wolf",
+   "oracle": "Menace (This creature can't be blocked except by two or more creatures.)\nFerocious — Whenever this creature attacks while you control a creature with power 4 or greater, this creature gets +2/+2 until end of turn.",
+   "pt": "1/1",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Menace"
+    ]
+   }
+  },
+  "Desolation Prowler": {
+   "mana_cost": "{1}{B}",
+   "type": "Creature — Wolf",
+   "oracle": "Pay 2 life: This creature gets +2/+2 until end of turn. Activate only once each turn.",
+   "pt": "2/2",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "Pay 2 life: This creature gets +2/+2 until end of turn. Activate only once each turn."
+    ],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Sunset Saboteur": {
+   "mana_cost": "{1}{B}",
+   "type": "Creature — Human Rogue",
+   "oracle": "Menace\nWard—Discard a card.\nWhenever this creature attacks, put a +1/+1 counter on target creature an opponent controls.",
+   "pt": "4/1",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever this creature attacks, put a +1/+1 counter on target creature an opponent controls"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Ward",
+     "Menace"
+    ]
+   }
+  },
+  "Shoot the Sheriff": {
+   "mana_cost": "{1}{B}",
+   "type": "Instant",
+   "oracle": "Destroy target non-outlaw creature. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws. Everyone else is fair game.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Corpses of the Lost": {
+   "mana_cost": "{2}{B}",
+   "type": "Enchantment",
+   "oracle": "Skeletons you control get +1/+0 and have haste.\nWhen this enchantment enters, create a 2/2 black Skeleton Pirate creature token.\nAt the beginning of your end step, if you descended this turn, you may pay 1 life. If you do, return this enchantment to its owner's hand. (You descended if a permanent card was put into your graveyard from anywhere.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this enchantment enters, create a 2/2 black Skeleton Pirate creature token",
+     "At the beginning of your end step, if you descended this turn, you may pay 1 life"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Haste"
+    ]
+   }
+  },
+  "Dissection Practice": {
+   "mana_cost": "{B}",
+   "type": "Instant",
+   "oracle": "Target opponent loses 1 life and you gain 1 life.\nUp to one target creature gets +1/+1 until end of turn.\nUp to one target creature gets -1/-1 until end of turn.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Gollum, Riddle Master": {
+   "mana_cost": "{1}{B}",
+   "type": "Legendary Creature — Halfling Horror",
+   "oracle": "As Gollum enters, choose odd or even. (Zero is even.)\nWhenever an opponent casts a spell with mana value of the chosen quality, choose one that hasn't been chosen —\n• Put a +1/+1 counter on Gollum.\n• Each opponent loses 2 life and you gain 2 life.\n• Draw a card.",
+   "pt": "3/1",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever an opponent casts a spell with mana value of the chosen quality, choose one that hasn't been chosen —"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Requiting Hex": {
+   "mana_cost": "{B}",
+   "type": "Instant",
+   "oracle": "As an additional cost to cast this spell, you may blight 1. (You may put a -1/-1 counter on a creature you control.)\nDestroy target creature with mana value 2 or less. If this spell's additional cost was paid, you gain 2 life.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Duress": {
+   "mana_cost": "{B}",
+   "type": "Sorcery",
+   "oracle": "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Strategic Betrayal": {
+   "mana_cost": "{1}{B}",
+   "type": "Sorcery",
+   "oracle": "Target opponent exiles a creature they control and their graveyard.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Elegy Acolyte": {
+   "mana_cost": "{2}{B}{B}",
+   "type": "Creature — Human Cleric",
+   "oracle": "Lifelink\nWhenever one or more creatures you control deal combat damage to a player, you draw a card and lose 1 life.\nVoid — At the beginning of your end step, if a nonland permanent left the battlefield this turn or a spell was warped this turn, create a 2/2 colorless Robot artifact creature token.",
+   "pt": "4/4",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever one or more creatures you control deal combat damage to a player, you draw a card and lose 1 life"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Lifelink"
+    ]
+   }
+  },
+  "Day of Black Sun": {
+   "mana_cost": "{X}{B}{B}",
+   "type": "Sorcery",
+   "oracle": "Each creature with mana value X or less loses all abilities until end of turn. Destroy those creatures.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  }
+ },
+ "our_cards": {
+  "Tishana's Tidebinder": {
+   "mc": "{2}{U}",
+   "type": "Creature — Merfolk Wizard",
+   "pt": "3/2",
+   "oracle": "Flash\nWhen this creature enters, counter up to one target activated or triggered ability. If an ability of an artifact, creature, or planeswalker is countered this way, that permanent loses all abilities for as long as this creature remains on the battlefield. (Mana abilities can't be targeted.)",
+   "keywords": [
+    "Flash"
+   ],
+   "set": "The Lost Caverns of Ixalan",
+   "released": "2023-11-17",
+   "rulings": [
+    [
+     "2023-11-10",
+     "If Tishana's Tidebinder leaves the battlefield before its triggered ability resolves, the target activated or triggered ability will still be countered, but the source of the ability won't lose its abilities at all."
+    ],
+    [
+     "2023-11-10",
+     "If the affected permanent gains an ability after Tishana's Tidebinder's effect begins to apply to it, it will keep that ability."
+    ],
+    [
+     "2023-11-10",
+     "Tishana's Tidebinder's triggered ability checks to see if the source of the ability is an artifact, creature, or planeswalker as it resolves. If it isn't, it won't lose all abilities, even if it was an artifact, creature, or planeswalker when the ability was activated or when it triggered."
+    ]
+   ],
+   "art": "https://cards.scryfall.io/art_crop/front/9/0/907b3d1d-8c85-4707-80b5-c4d832df9846.jpg?1783913786"
+  },
+  "The Wondrous Wasp": {
+   "mc": "{1}{U}",
+   "type": "Legendary Creature — Human Hero",
+   "pt": "2/1",
+   "oracle": "Flash\nFlying\nWasp's Sting — When The Wondrous Wasp enters, tap up to one target creature. It loses all abilities for as long as The Wondrous Wasp remains on the battlefield.",
+   "keywords": [
+    "Flying",
+    "Wasp's Sting",
+    "Flash"
+   ],
+   "set": "Marvel Super Heroes",
+   "released": "2026-06-26",
+   "rulings": [],
+   "art": "https://cards.scryfall.io/art_crop/front/4/8/484e80a4-1d5f-4c27-98a8-ee2ef9d6cbdc.jpg?1783902947"
+  }
+ },
+ "our_stock_list_sept_2026": {
+  "main": {
+   "Bitter Triumph": 2,
+   "Dream Beavers": 4,
+   "Kaito, Bane of Nightmares": 4,
+   "Floodpits Drowner": 4,
+   "Gloomlake Verge": 4,
+   "Island": 4,
+   "Restless Reef": 2,
+   "Requiting Hex": 4,
+   "Soulstone Sanctuary": 2,
+   "Shoot the Sheriff": 2,
+   "Wan Shi Tong, Librarian": 2,
+   "Spyglass Siren": 4,
+   "Spell Snare": 2,
+   "The Wondrous Wasp": 2,
+   "Tishana's Tidebinder": 1,
+   "Watery Grave": 4,
+   "We Say Thee Nay!": 2,
+   "Swamp": 4,
+   "Enduring Curiosity": 4,
+   "Hidden Lair": 3
+  },
+  "side": {
+   "Duress": 3,
+   "Day of Black Sun": 2,
+   "Annul": 1,
+   "Ghost Vacuum": 1,
+   "Spell Pierce": 2,
+   "Strategic Betrayal": 1,
+   "Vren, the Relentless": 1,
+   "Flashfreeze": 2,
+   "Faebloom Trick": 2
+  },
+  "note": "MTGGoldfish stock Dimir Midrange, Sept 2026. Main runs 1 Tishana's Tidebinder + 2 The Wondrous Wasp; Karsten Sept 3 aggregate and postboard both show 2 Tidebinder in the sideboard."
+ }
+}

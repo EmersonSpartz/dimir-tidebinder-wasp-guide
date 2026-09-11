@@ -1,0 +1,459 @@
+{
+ "deck": "Boros Tokens",
+ "meta_share_pct": 2.1,
+ "goldfish_deck_id": "7935080",
+ "main": {
+  "Sunbillow Verge": 4,
+  "Voice of Victory": 4,
+  "Warleader's Call": 4,
+  "Song of Totentanz": 4,
+  "Frontline Rush": 4,
+  "Stadium Headliner": 4,
+  "Sacred Foundry": 4,
+  "Dalkovan Encampment": 3,
+  "Hop to It": 3,
+  "The Last Ronin's Technique": 3,
+  "Inspiring Vantage": 4,
+  "Mountain": 4,
+  "Fountainport": 2,
+  "Belladonna Took": 4,
+  "Plains": 1,
+  "Political Triumph": 4,
+  "Torch the Tower": 3,
+  "Erode": 1
+ },
+ "side": {
+  "Captain Marvel, Earth's Protector": 1,
+  "Rest in Peace": 3,
+  "Erode": 3,
+  "Get Lost": 2,
+  "The Queen of Dale": 3,
+  "Dawn's Truce": 3
+ },
+ "cards": {
+  "Sunbillow Verge": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "{T}: Add {W}.\n{T}: Add {R}. Activate only if you control a Mountain or a Plains.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}: Add {W}.",
+     "{T}: Add {R}. Activate only if you control a Mountain or a Plains"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Voice of Victory": {
+   "mana_cost": "{1}{W}",
+   "type": "Creature — Human Bard",
+   "oracle": "Mobilize 2 (Whenever this creature attacks, create two tapped and attacking 1/1 red Warrior creature tokens. Sacrifice them at the beginning of the next end step.)\nYour opponents can't cast spells during your turn.",
+   "pt": "1/3",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Warleader's Call": {
+   "mana_cost": "{1}{R}{W}",
+   "type": "Enchantment",
+   "oracle": "Creatures you control get +1/+1.\nWhenever a creature you control enters, this enchantment deals 1 damage to each opponent.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever a creature you control enters, this enchantment deals 1 damage to each opponent"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Song of Totentanz": {
+   "mana_cost": "{X}{R}",
+   "type": "Sorcery",
+   "oracle": "Create X 1/1 black Rat creature tokens with \"This token can't block.\" Creatures you control gain haste until end of turn.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Haste"
+    ]
+   }
+  },
+  "Frontline Rush": {
+   "mana_cost": "{R}{W}",
+   "type": "Instant",
+   "oracle": "Choose one —\n• Create two 1/1 red Goblin creature tokens.\n• Target creature gets +X/+X until end of turn, where X is the number of creatures you control.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Stadium Headliner": {
+   "mana_cost": "{R}",
+   "type": "Creature — Goblin Warrior",
+   "oracle": "Mobilize 1 (Whenever this creature attacks, create a tapped and attacking 1/1 red Warrior creature token. Sacrifice it at the beginning of the next end step.)\n{1}{R}, Sacrifice this creature: It deals damage equal to the number of creatures you control to target creature.",
+   "pt": "1/1",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{1}{R}, Sacrifice this creature: It deals damage equal to the number of creatures you control to target creature."
+    ],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Sacred Foundry": {
+   "mana_cost": "",
+   "type": "Land — Mountain Plains",
+   "oracle": "({T}: Add {R} or {W}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {R} or {W}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Dalkovan Encampment": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "This land enters tapped unless you control a Swamp or a Mountain.\n{T}: Add {W}.\n{2}{W}, {T}: Whenever you attack this turn, create two 1/1 red Warrior creature tokens that are tapped and attacking. Sacrifice them at the beginning of the next end step.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{2}{W}, {T}: Whenever you attack this turn, create two 1/1 red Warrior creature tokens that are tapped "
+    ],
+    "mana_abilities_untargetable": [
+     "{T}: Add {W}."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Hop to It": {
+   "mana_cost": "{2}{W}",
+   "type": "Sorcery",
+   "oracle": "Create three 1/1 white Rabbit creature tokens.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "The Last Ronin's Technique": {
+   "mana_cost": "{3}{W}",
+   "type": "Instant",
+   "oracle": "Sneak {1}{W} (You may cast this spell for {1}{W} if you also return an unblocked attacker you control to hand during the declare blockers step.)\nCreate three 1/1 white Ninja Turtle Spirit creature tokens. If this spell's sneak cost was paid, they enter tapped and attacking.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Inspiring Vantage": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {R} or {W}.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}: Add {R} or {W}."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Mountain": {
+   "mana_cost": "",
+   "type": "Basic Land — Mountain",
+   "oracle": "({T}: Add {R}.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {R}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Fountainport": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "{T}: Add {C}.\n{2}, {T}, Sacrifice a token: Draw a card.\n{3}, {T}, Pay 1 life: Create a 1/1 blue Fish creature token.\n{4}, {T}: Create a Treasure token.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{2}, {T}, Sacrifice a token: Draw a card.",
+     "{3}, {T}, Pay 1 life: Create a 1/1 blue Fish creature token.",
+     "{4}, {T}: Create a Treasure token."
+    ],
+    "mana_abilities_untargetable": [
+     "{T}: Add {C}."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Belladonna Took": {
+   "mana_cost": "{1}{W}",
+   "type": "Legendary Creature — Halfling Citizen",
+   "oracle": "Whenever a token you control enters, you gain 1 life if this is the first time this ability has resolved this turn. If it's the second time, draw a card. If it's the third time, put a +1/+1 counter on each creature you control.",
+   "pt": "2/2",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever a token you control enters, you gain 1 life if this is the first time this ability has resolved this turn"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Plains": {
+   "mana_cost": "",
+   "type": "Basic Land — Plains",
+   "oracle": "({T}: Add {W}.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {W}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Political Triumph": {
+   "mana_cost": "{W}",
+   "type": "Enchantment — Plan",
+   "oracle": "Whenever a creature you control enters, scry 1 and put a plan counter on this enchantment.\nWhen the fourth plan counter is put on this enchantment, sacrifice it, draw a card, and put a +1/+1 counter on each creature you control.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever a creature you control enters, scry 1 and put a plan counter on this enchantment",
+     "When the fourth plan counter is put on this enchantment, sacrifice it, draw a card, and put a +1/+1 counter on each creature you control"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Torch the Tower": {
+   "mana_cost": "{R}",
+   "type": "Instant",
+   "oracle": "Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.)\nTorch the Tower deals 2 damage to target creature or planeswalker. If this spell was bargained, instead it deals 3 damage to that permanent and you scry 1.\nIf a permanent dealt damage by Torch the Tower would die this turn, exile it instead.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Erode": {
+   "mana_cost": "{W}",
+   "type": "Instant",
+   "oracle": "Destroy target creature or planeswalker. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Captain Marvel, Earth's Protector": {
+   "mana_cost": "{3}{W}{W}",
+   "type": "Legendary Creature — Human Kree Hero",
+   "oracle": "Flash\nFlying, lifelink\nPower-up — {5}{W}{W}: Put a +1/+1 counter and an indestructible counter on Captain Marvel. (Activate each power-up ability only once. Reduce the cost by her mana cost if she entered this turn.)",
+   "pt": "5/4",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "Power-up — {5}{W}{W}: Put a +1/+1 counter and an indestructible counter on Captain Marvel. (Activate each power-"
+    ],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flash",
+     "Lifelink",
+     "Flying",
+     "Indestructible"
+    ]
+   }
+  },
+  "Rest in Peace": {
+   "mana_cost": "{1}{W}",
+   "type": "Enchantment",
+   "oracle": "When this enchantment enters, exile all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this enchantment enters, exile all graveyards"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Get Lost": {
+   "mana_cost": "{1}{W}",
+   "type": "Instant",
+   "oracle": "Destroy target creature, enchantment, or planeswalker. Its controller creates two Map tokens. (They're artifacts with \"{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.\")",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "The Queen of Dale": {
+   "mana_cost": "{1}{W}",
+   "type": "Legendary Creature — Human Noble",
+   "oracle": "Whenever an opponent casts their first noncreature spell each turn, you recruit. (Draw a card, then discard a card. If you discarded a nonland card, create a 1/1 white Human Soldier creature token.)",
+   "pt": "2/1",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever an opponent casts their first noncreature spell each turn, you recruit"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Dawn's Truce": {
+   "mana_cost": "{1}{W}",
+   "type": "Instant",
+   "oracle": "Gift a card (You may promise an opponent a gift as you cast this spell. If you do, they draw a card before its other effects.)\nYou and permanents you control gain hexproof until end of turn. If the gift was promised, permanents you control also gain indestructible until end of turn.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Hexproof",
+     "Indestructible"
+    ]
+   }
+  }
+ },
+ "our_cards": {
+  "Tishana's Tidebinder": {
+   "mc": "{2}{U}",
+   "type": "Creature — Merfolk Wizard",
+   "pt": "3/2",
+   "oracle": "Flash\nWhen this creature enters, counter up to one target activated or triggered ability. If an ability of an artifact, creature, or planeswalker is countered this way, that permanent loses all abilities for as long as this creature remains on the battlefield. (Mana abilities can't be targeted.)",
+   "keywords": [
+    "Flash"
+   ],
+   "set": "The Lost Caverns of Ixalan",
+   "released": "2023-11-17",
+   "rulings": [
+    [
+     "2023-11-10",
+     "If Tishana's Tidebinder leaves the battlefield before its triggered ability resolves, the target activated or triggered ability will still be countered, but the source of the ability won't lose its abilities at all."
+    ],
+    [
+     "2023-11-10",
+     "If the affected permanent gains an ability after Tishana's Tidebinder's effect begins to apply to it, it will keep that ability."
+    ],
+    [
+     "2023-11-10",
+     "Tishana's Tidebinder's triggered ability checks to see if the source of the ability is an artifact, creature, or planeswalker as it resolves. If it isn't, it won't lose all abilities, even if it was an artifact, creature, or planeswalker when the ability was activated or when it triggered."
+    ]
+   ],
+   "art": "https://cards.scryfall.io/art_crop/front/9/0/907b3d1d-8c85-4707-80b5-c4d832df9846.jpg?1783913786"
+  },
+  "The Wondrous Wasp": {
+   "mc": "{1}{U}",
+   "type": "Legendary Creature — Human Hero",
+   "pt": "2/1",
+   "oracle": "Flash\nFlying\nWasp's Sting — When The Wondrous Wasp enters, tap up to one target creature. It loses all abilities for as long as The Wondrous Wasp remains on the battlefield.",
+   "keywords": [
+    "Flying",
+    "Wasp's Sting",
+    "Flash"
+   ],
+   "set": "Marvel Super Heroes",
+   "released": "2026-06-26",
+   "rulings": [],
+   "art": "https://cards.scryfall.io/art_crop/front/4/8/484e80a4-1d5f-4c27-98a8-ee2ef9d6cbdc.jpg?1783902947"
+  }
+ },
+ "our_stock_list_sept_2026": {
+  "main": {
+   "Bitter Triumph": 2,
+   "Dream Beavers": 4,
+   "Kaito, Bane of Nightmares": 4,
+   "Floodpits Drowner": 4,
+   "Gloomlake Verge": 4,
+   "Island": 4,
+   "Restless Reef": 2,
+   "Requiting Hex": 4,
+   "Soulstone Sanctuary": 2,
+   "Shoot the Sheriff": 2,
+   "Wan Shi Tong, Librarian": 2,
+   "Spyglass Siren": 4,
+   "Spell Snare": 2,
+   "The Wondrous Wasp": 2,
+   "Tishana's Tidebinder": 1,
+   "Watery Grave": 4,
+   "We Say Thee Nay!": 2,
+   "Swamp": 4,
+   "Enduring Curiosity": 4,
+   "Hidden Lair": 3
+  },
+  "side": {
+   "Duress": 3,
+   "Day of Black Sun": 2,
+   "Annul": 1,
+   "Ghost Vacuum": 1,
+   "Spell Pierce": 2,
+   "Strategic Betrayal": 1,
+   "Vren, the Relentless": 1,
+   "Flashfreeze": 2,
+   "Faebloom Trick": 2
+  },
+  "note": "MTGGoldfish stock Dimir Midrange, Sept 2026. Main runs 1 Tishana's Tidebinder + 2 The Wondrous Wasp; Karsten Sept 3 aggregate and postboard both show 2 Tidebinder in the sideboard."
+ }
+}

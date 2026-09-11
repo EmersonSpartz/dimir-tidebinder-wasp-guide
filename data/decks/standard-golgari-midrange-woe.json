@@ -1,0 +1,673 @@
+{
+ "deck": "Golgari Midrange",
+ "meta_share_pct": 2.1,
+ "goldfish_deck_id": "7935065",
+ "main": {
+  "Bitter Triumph": 1,
+  "Bleachbone Verge": 3,
+  "Deadly Cover-Up": 4,
+  "Blazemire Verge": 3,
+  "Firdoch Core": 4,
+  "Great Hall of the Biblioplex": 3,
+  "Maelstrom Pulse": 1,
+  "Duress": 3,
+  "Professor Dellian Fel": 1,
+  "Requiting Hex": 3,
+  "Restless Cottage": 2,
+  "Shoot the Sheriff": 2,
+  "Swamp": 5,
+  "Together as One": 4,
+  "Unholy Annex // Ritual Chamber": 4,
+  "Wastewood Verge": 1,
+  "Watery Grave": 2,
+  "Restless Reef": 2,
+  "Deceit": 4,
+  "Overgrown Tomb": 2,
+  "The Soul Stone": 1,
+  "Mazemind Tome": 1,
+  "Ba Sing Se": 1,
+  "Multiversal Passage": 1,
+  "Inside Information": 1,
+  "Nowhere to Run": 1
+ },
+ "side": {
+  "Ancient Vendetta": 1,
+  "Day of Black Sun": 2,
+  "Ghost Vacuum": 1,
+  "Inside Information": 1,
+  "Intimidation Tactics": 2,
+  "Outrageous Robbery": 1,
+  "Qarsi Revenant": 2,
+  "Nowhere to Run": 1,
+  "Strategic Betrayal": 1,
+  "The End": 1,
+  "Vicious Rivalry": 1,
+  "Duress": 1
+ },
+ "cards": {
+  "Bitter Triumph": {
+   "mana_cost": "{1}{B}",
+   "type": "Instant",
+   "oracle": "As an additional cost to cast this spell, discard a card or pay 3 life.\nDestroy target creature or planeswalker.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Bleachbone Verge": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "{T}: Add {B}.\n{T}: Add {W}. Activate only if you control a Plains or a Swamp.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}: Add {B}.",
+     "{T}: Add {W}. Activate only if you control a Plains or a Swamp."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Deadly Cover-Up": {
+   "mana_cost": "{3}{B}{B}",
+   "type": "Sorcery",
+   "oracle": "As an additional cost to cast this spell, you may collect evidence 6.\nDestroy all creatures. If evidence was collected, exile a card from an opponent's graveyard. Then search its owner's graveyard, hand, and library for any number of cards with that name and exile them. That player shuffles, then draws a card for each card exiled from their hand this way.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Blazemire Verge": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "{T}: Add {B}.\n{T}: Add {R}. Activate only if you control a Swamp or a Mountain.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}: Add {B}.",
+     "{T}: Add {R}. Activate only if you control a Swamp or a Mountain."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Firdoch Core": {
+   "mana_cost": "{3}",
+   "type": "Kindred Artifact — Shapeshifter",
+   "oracle": "Changeling (This card is every creature type.)\n{T}: Add one mana of any color.\n{4}: This artifact becomes a 4/4 artifact creature until end of turn.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{4}: This artifact becomes a 4/4 artifact creature until end of turn."
+    ],
+    "mana_abilities_untargetable": [
+     "{T}: Add one mana of any color."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Great Hall of the Biblioplex": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "{T}: Add {C}.\n{T}, Pay 1 life: Add one mana of any color. Spend this mana only to cast an instant or sorcery spell.\n{5}: If this land isn't a creature, it becomes a 2/4 Wizard creature with \"Whenever you cast an instant or sorcery spell, this creature gets +1/+0 until end of turn.\" It's still a land.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{5}: If this land isn't a creature, it becomes a 2/4 Wizard creature with \"Whenever you cast an"
+    ],
+    "mana_abilities_untargetable": [
+     "{T}: Add {C}.",
+     "{T}, Pay 1 life: Add one mana of any color. Spend this mana only to cast an i"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Maelstrom Pulse": {
+   "mana_cost": "{1}{B}{G}",
+   "type": "Sorcery",
+   "oracle": "Destroy target nonland permanent and all other permanents with the same name as that permanent.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Duress": {
+   "mana_cost": "{B}",
+   "type": "Sorcery",
+   "oracle": "Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Professor Dellian Fel": {
+   "mana_cost": "{2}{B}{G}",
+   "type": "Legendary Planeswalker — Dellian",
+   "oracle": "+2: You gain 3 life.\n0: You draw a card and lose 1 life.\n−3: Destroy target creature.\n−6: You get an emblem with \"Whenever you gain life, target opponent loses that much life.\"",
+   "pt": null,
+   "loyalty": "5",
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "+2: You gain 3 life.",
+     "0: You draw a card and lose 1 life.",
+     "−3: Destroy target creature.",
+     "−6: You get an emblem with \"Whenever you gain life, target opponent loses that much life.\""
+    ],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Requiting Hex": {
+   "mana_cost": "{B}",
+   "type": "Instant",
+   "oracle": "As an additional cost to cast this spell, you may blight 1. (You may put a -1/-1 counter on a creature you control.)\nDestroy target creature with mana value 2 or less. If this spell's additional cost was paid, you gain 2 life.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Restless Cottage": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "This land enters tapped.\n{T}: Add {B} or {G}.\n{2}{B}{G}: This land becomes a 4/4 black and green Horror creature until end of turn. It's still a land.\nWhenever this land attacks, create a Food token and exile up to one target card from a graveyard.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever this land attacks, create a Food token and exile up to one target card from a graveyard"
+    ],
+    "activated": [
+     "{2}{B}{G}: This land becomes a 4/4 black and green Horror creature until end of turn. It's still a la"
+    ],
+    "mana_abilities_untargetable": [
+     "{T}: Add {B} or {G}."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Shoot the Sheriff": {
+   "mana_cost": "{1}{B}",
+   "type": "Instant",
+   "oracle": "Destroy target non-outlaw creature. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws. Everyone else is fair game.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Swamp": {
+   "mana_cost": "",
+   "type": "Basic Land — Swamp",
+   "oracle": "({T}: Add {B}.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {B}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Together as One": {
+   "mana_cost": "{6}",
+   "type": "Sorcery",
+   "oracle": "Converge — Target player draws X cards, Together as One deals X damage to any target, and you gain X life, where X is the number of colors of mana spent to cast this spell.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Unholy Annex // Ritual Chamber": {
+   "mana_cost": "{2}{B} // {3}{B}{B}",
+   "type": "Enchantment — Room // Enchantment — Room",
+   "oracle": "At the beginning of your end step, draw a card. If you control a Demon, each opponent loses 2 life and you gain 2 life. Otherwise, you lose 2 life.\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.) // When you unlock this door, create a 6/6 black Demon creature token with flying.\n(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "At the beginning of your end step, draw a card"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flying"
+    ]
+   }
+  },
+  "Wastewood Verge": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "{T}: Add {G}.\n{T}: Add {B}. Activate only if you control a Swamp or a Forest.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "{T}: Add {G}.",
+     "{T}: Add {B}. Activate only if you control a Swamp or a Forest."
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Watery Grave": {
+   "mana_cost": "",
+   "type": "Land — Island Swamp",
+   "oracle": "({T}: Add {U} or {B}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {U} or {B}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "Restless Reef": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "This land enters tapped.\n{T}: Add {U} or {B}.\n{2}{U}{B}: Until end of turn, this land becomes a 4/4 blue and black Shark creature with deathtouch. It's still a land.\nWhenever this land attacks, target player mills four cards.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "Whenever this land attacks, target player mills four cards"
+    ],
+    "activated": [
+     "{2}{U}{B}: Until end of turn, this land becomes a 4/4 blue and black Shark creature with deathtouch. "
+    ],
+    "mana_abilities_untargetable": [
+     "{T}: Add {U} or {B}."
+    ],
+    "keywords_seen": [
+     "Deathtouch"
+    ]
+   }
+  },
+  "Deceit": {
+   "mana_cost": "{4}{U/B}{U/B}",
+   "type": "Creature — Elemental Incarnation",
+   "oracle": "When this creature enters, if {U}{U} was spent to cast it, return up to one other target nonland permanent to its owner's hand.\nWhen this creature enters, if {B}{B} was spent to cast it, target opponent reveals their hand. You choose a nonland card from it. That player discards that card.\nEvoke {U/B}{U/B}",
+   "pt": "5/5",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this creature enters, if {U}{U} was spent to cast it, return up to one other target nonland permanent to its owner's hand",
+     "When this creature enters, if {B}{B} was spent to cast it, target opponent reveals their hand"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Overgrown Tomb": {
+   "mana_cost": "",
+   "type": "Land — Swamp Forest",
+   "oracle": "({T}: Add {B} or {G}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [
+     "({T}: Add {B} or {G}.)"
+    ],
+    "keywords_seen": []
+   }
+  },
+  "The Soul Stone": {
+   "mana_cost": "{1}{B}",
+   "type": "Legendary Artifact — Infinity Stone",
+   "oracle": "Indestructible\n{T}: Add {B}.\n{6}{B}, {T}, Exile a creature you control: Harness The Soul Stone. (Once harnessed, its ∞ ability is active.)\n∞ — At the beginning of your upkeep, return target creature card from your graveyard to the battlefield.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{6}{B}, {T}, Exile a creature you control: Harness The Soul Stone. (Once harnessed, its ∞ ability is active.)"
+    ],
+    "mana_abilities_untargetable": [
+     "{T}: Add {B}."
+    ],
+    "keywords_seen": [
+     "Indestructible"
+    ]
+   }
+  },
+  "Mazemind Tome": {
+   "mana_cost": "{2}",
+   "type": "Artifact — Book",
+   "oracle": "{T}, Put a page counter on this artifact: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)\n{2}, {T}, Put a page counter on this artifact: Draw a card.\nWhen there are four or more page counters on this artifact, exile it. If you do, you gain 4 life.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When there are four or more page counters on this artifact, exile it"
+    ],
+    "activated": [
+     "{T}, Put a page counter on this artifact: Scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+     "{2}, {T}, Put a page counter on this artifact: Draw a card."
+    ],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Ba Sing Se": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "This land enters tapped unless you control a basic land.\n{T}: Add {G}.\n{2}{G}, {T}: Earthbend 2. Activate only as a sorcery. (Target land you control becomes a 0/0 creature with haste that's still a land. Put two +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     ". When it dies or is exiled, return it to the battlefield tapped"
+    ],
+    "activated": [
+     "{2}{G}, {T}: Earthbend 2. Activate only as a sorcery. (Target land you control becomes a 0/0 creature w"
+    ],
+    "mana_abilities_untargetable": [
+     "{T}: Add {G}."
+    ],
+    "keywords_seen": [
+     "Haste"
+    ]
+   }
+  },
+  "Multiversal Passage": {
+   "mana_cost": "",
+   "type": "Land",
+   "oracle": "As this land enters, choose a basic land type. Then you may pay 2 life. If you don't, it enters tapped.\nThis land is the chosen type.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Inside Information": {
+   "mana_cost": "{X}{B}{B}",
+   "type": "Sorcery",
+   "oracle": "Exile the top X cards of target opponent's library. You may play those cards this turn. If you cast a spell this way, pay life equal to its mana value rather than pay its mana cost.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Nowhere to Run": {
+   "mana_cost": "{1}{B}",
+   "type": "Enchantment",
+   "oracle": "Flash\nWhen this enchantment enters, target creature an opponent controls gets -3/-3 until end of turn.\nCreatures your opponents control can be the targets of spells and abilities as though they didn't have hexproof. Ward abilities of those creatures don't trigger.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [
+     "When this enchantment enters, target creature an opponent controls gets -3/-3 until end of turn"
+    ],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Ward",
+     "Flash",
+     "Hexproof"
+    ]
+   }
+  },
+  "Ancient Vendetta": {
+   "mana_cost": "{3}{B}",
+   "type": "Sorcery",
+   "oracle": "Choose a card name. Search target opponent's graveyard, hand, and library for up to four cards with that name and exile them. Then that player shuffles.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Day of Black Sun": {
+   "mana_cost": "{X}{B}{B}",
+   "type": "Sorcery",
+   "oracle": "Each creature with mana value X or less loses all abilities until end of turn. Destroy those creatures.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Ghost Vacuum": {
+   "mana_cost": "{1}",
+   "type": "Artifact",
+   "oracle": "{T}: Exile target card from a graveyard.\n{6}, {T}, Sacrifice this artifact: Put each creature card exiled with this artifact onto the battlefield under your control with a flying counter on it. Each of them is a 1/1 Spirit in addition to its other types. Activate only as a sorcery.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "{T}: Exile target card from a graveyard.",
+     "{6}, {T}, Sacrifice this artifact: Put each creature card exiled with this artifact onto the battlefield under your control w"
+    ],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Flying"
+    ]
+   }
+  },
+  "Intimidation Tactics": {
+   "mana_cost": "{B}",
+   "type": "Sorcery",
+   "oracle": "Target opponent reveals their hand. You choose an artifact or creature card from it. Exile that card.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "Cycling {3} ({3}, Discard this card: Draw a card.)"
+    ],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Cycling"
+    ]
+   }
+  },
+  "Outrageous Robbery": {
+   "mana_cost": "{X}{B}{B}",
+   "type": "Instant",
+   "oracle": "Target opponent exiles the top X cards of their library face down. You may look at and play those cards for as long as they remain exiled. If you cast a spell this way, you may spend mana as though it were mana of any type to cast it.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Qarsi Revenant": {
+   "mana_cost": "{1}{B}{B}",
+   "type": "Creature — Vampire",
+   "oracle": "Flying, deathtouch, lifelink\nRenew — {2}{B}, Exile this card from your graveyard: Put a flying counter, a deathtouch counter, and a lifelink counter on target creature. Activate only as a sorcery.",
+   "pt": "3/3",
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [
+     "Renew — {2}{B}, Exile this card from your graveyard: Put a flying counter, a deathtouch counter, and a lifelink counter on target creature. Act"
+    ],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": [
+     "Deathtouch",
+     "Lifelink",
+     "Flying"
+    ]
+   }
+  },
+  "Strategic Betrayal": {
+   "mana_cost": "{1}{B}",
+   "type": "Sorcery",
+   "oracle": "Target opponent exiles a creature they control and their graveyard.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "The End": {
+   "mana_cost": "{2}{B}{B}",
+   "type": "Instant",
+   "oracle": "This spell costs {2} less to cast if your life total is 5 or less.\nExile target creature or planeswalker. Search its controller's graveyard, hand, and library for any number of cards with the same name as that permanent and exile them. That player shuffles, then draws a card for each card exiled from their hand this way.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  },
+  "Vicious Rivalry": {
+   "mana_cost": "{2}{B}{G}",
+   "type": "Sorcery",
+   "oracle": "As an additional cost to cast this spell, pay X life.\nDestroy all artifacts and creatures with mana value X or less.",
+   "pt": null,
+   "loyalty": null,
+   "ability_tags": {
+    "triggered": [],
+    "activated": [],
+    "mana_abilities_untargetable": [],
+    "keywords_seen": []
+   }
+  }
+ },
+ "our_cards": {
+  "Tishana's Tidebinder": {
+   "mc": "{2}{U}",
+   "type": "Creature — Merfolk Wizard",
+   "pt": "3/2",
+   "oracle": "Flash\nWhen this creature enters, counter up to one target activated or triggered ability. If an ability of an artifact, creature, or planeswalker is countered this way, that permanent loses all abilities for as long as this creature remains on the battlefield. (Mana abilities can't be targeted.)",
+   "keywords": [
+    "Flash"
+   ],
+   "set": "The Lost Caverns of Ixalan",
+   "released": "2023-11-17",
+   "rulings": [
+    [
+     "2023-11-10",
+     "If Tishana's Tidebinder leaves the battlefield before its triggered ability resolves, the target activated or triggered ability will still be countered, but the source of the ability won't lose its abilities at all."
+    ],
+    [
+     "2023-11-10",
+     "If the affected permanent gains an ability after Tishana's Tidebinder's effect begins to apply to it, it will keep that ability."
+    ],
+    [
+     "2023-11-10",
+     "Tishana's Tidebinder's triggered ability checks to see if the source of the ability is an artifact, creature, or planeswalker as it resolves. If it isn't, it won't lose all abilities, even if it was an artifact, creature, or planeswalker when the ability was activated or when it triggered."
+    ]
+   ],
+   "art": "https://cards.scryfall.io/art_crop/front/9/0/907b3d1d-8c85-4707-80b5-c4d832df9846.jpg?1783913786"
+  },
+  "The Wondrous Wasp": {
+   "mc": "{1}{U}",
+   "type": "Legendary Creature — Human Hero",
+   "pt": "2/1",
+   "oracle": "Flash\nFlying\nWasp's Sting — When The Wondrous Wasp enters, tap up to one target creature. It loses all abilities for as long as The Wondrous Wasp remains on the battlefield.",
+   "keywords": [
+    "Flying",
+    "Wasp's Sting",
+    "Flash"
+   ],
+   "set": "Marvel Super Heroes",
+   "released": "2026-06-26",
+   "rulings": [],
+   "art": "https://cards.scryfall.io/art_crop/front/4/8/484e80a4-1d5f-4c27-98a8-ee2ef9d6cbdc.jpg?1783902947"
+  }
+ },
+ "our_stock_list_sept_2026": {
+  "main": {
+   "Bitter Triumph": 2,
+   "Dream Beavers": 4,
+   "Kaito, Bane of Nightmares": 4,
+   "Floodpits Drowner": 4,
+   "Gloomlake Verge": 4,
+   "Island": 4,
+   "Restless Reef": 2,
+   "Requiting Hex": 4,
+   "Soulstone Sanctuary": 2,
+   "Shoot the Sheriff": 2,
+   "Wan Shi Tong, Librarian": 2,
+   "Spyglass Siren": 4,
+   "Spell Snare": 2,
+   "The Wondrous Wasp": 2,
+   "Tishana's Tidebinder": 1,
+   "Watery Grave": 4,
+   "We Say Thee Nay!": 2,
+   "Swamp": 4,
+   "Enduring Curiosity": 4,
+   "Hidden Lair": 3
+  },
+  "side": {
+   "Duress": 3,
+   "Day of Black Sun": 2,
+   "Annul": 1,
+   "Ghost Vacuum": 1,
+   "Spell Pierce": 2,
+   "Strategic Betrayal": 1,
+   "Vren, the Relentless": 1,
+   "Flashfreeze": 2,
+   "Faebloom Trick": 2
+  },
+  "note": "MTGGoldfish stock Dimir Midrange, Sept 2026. Main runs 1 Tishana's Tidebinder + 2 The Wondrous Wasp; Karsten Sept 3 aggregate and postboard both show 2 Tidebinder in the sideboard."
+ }
+}
