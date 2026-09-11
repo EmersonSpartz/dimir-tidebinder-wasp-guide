@@ -17,7 +17,7 @@ def canon_deck(name, labels):
             if best is None or len(core) > len(best.lower().replace(' (mirror)', '')): best = lab
     return best
 
-GENERIC = ('any ', 'their ', 'our ', 'own ', 'opponent', 'token', 'each ', 'every ', 'all ', 'attacker', 'blocker', 'holding a blank')
+GENERIC = ('any ', 'their ', 'our ', 'own ', 'opponent', 'token', 'each ', 'every ', 'everything', 'all ', 'attacker', 'blocker', 'holding a blank', 'the rest')
 def norm(s): return unicodedata.normalize('NFKD', s).encode('ascii', 'ignore').decode().lower().strip()
 bad = 0; total = 0
 for e in R['entries']:
